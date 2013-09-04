@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="template" content="Main.htt" />
+<meta name="topic-check-list" content="Ran Smart Index" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>Extracting Unallocated Disk Space</title>
+<link rel="StyleSheet" href="..\autopsy.css" type="text/css" />
+</head>
+
+<body>
+<?rh-script_start ?><script src="../ehlpdhtm.js" type="text/javascript" 
+							 language="JavaScript1.2"></script><?rh-script_end ?>
+
+<h1>Extracting Unallocated Disk Space</h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Unallocated disk 
+ space is composed of chunks of the file system that are not currently 
+ in use. Unallocated space can store deleted files and other interesting 
+ artifacts.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">You can extract 
+ the individual contents of the unallocated space using the same steps 
+ as extracting individual files, or you can extract the space to a single 
+ file.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">In the image, 
+ unallocated space is stored in blocks with distinct locations on the system. 
+ However, because of the way various carving tools work, it may be more 
+ useful to collect the data into a single, large file.</span></p>
+<h3>To extract unallocated space as individual blocks</h3>
+<?rh-list_start class="NumberedList" level="1" ?><p style="mso-list: l0 level1 lfo2; 
+													 text-indent: -20px; 
+													 margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">In the <strong><a href="javascript:BSSCPopup('../Data_Explorer.htm');" 
+													 id="a1">Data Explorer</a></strong>, 
+ under the folder for the image name, click the volume (in the example 
+ below, the volume is </span><span class="Emphasis">vol2</span><span lang="EN-US" 
+	 xml:lang="EN-US">) and click the folder <strong>Unalloc</strong>.</span></p><?rh-list_end ?>
+<p style="mso-list: l0 level1 lfo2;"><span lang="EN-US" xml:lang="EN-US"><img 
+	 src="../UnallocTree.png" alt="" style="border: none;" width="550" 
+	 height="513" border="0" /></span></p>
+<?rh-list_start class="NumberedList" level="1" ?><p style="text-indent: -20px; 
+													 margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+	 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+	 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+	 mso-bidi-language: EN-US;">The list of files appears in the <strong>Result 
+ Viewer</strong></span><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+							 mso-bidi-font-size: 11.0pt; line-height: 115%; 
+							 font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+							 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+							 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+							 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">. 
+ You can extract the file the same way you can extract any other type of 
+ file under the </span><span class="Emphasis">Directory Tree</span><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+	 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+	 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+	 mso-bidi-language: EN-US;"> tab of the </span><span lang="EN-US" xml:lang="EN-US"><strong><a 
+	 href="javascript:BSSCPopup('../Data_Explorer.htm');" id="a2">Data 
+ Explorer</a></strong></span><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+									 mso-bidi-font-size: 11.0pt; line-height: 115%; 
+									 font-family: Verdana, sans-serif; 
+									 mso-fareast-font-family: 'Times New Roman'; 
+									 mso-fareast-theme-font: minor-fareast; 
+									 mso-bidi-font-family: 'Times New Roman'; 
+									 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+									 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">.</span> 
+ </p><?rh-list_end ?>
+<h3><strong style="font-weight: bold;">To extract unallocated space into 
+ a single file</strong></h3>
+<?rh-list_start class="NumberedList" level="1" start="1" ?><p style="text-indent: -20px; 
+	 margin-left: 40px;"><span lang="EN-US" xml:lang="EN-US">In the <strong><a 
+	 href="javascript:BSSCPopup('../Data_Explorer.htm');" id="a3">Data 
+ Explorer</a></strong></span><span lang="EN-US" xml:lang="EN-US" style="line-height: normal; 
+									 mso-pagination: none; mso-list: l0 level1 lfo2;">, 
+ under the <strong>Images</strong> folder, right-click the image name and 
+ then click </span><span lang="EN-US" xml:lang="EN-US"><strong>Extract 
+ Unallocated Space to Single Files.</strong></span></p><?rh-list_end ?>
+<p><img src="../ExtractUnalloc.png" alt="" style="border: none;" width="550" 
+		 height="248" border="0" /></p>
+<p><span lang="EN-US" xml:lang="EN-US">The <strong>Select directory to 
+ save to</strong> window appears.</span></p>
+<p class="MsoNormal" style="mso-ansi-language: EN-CA; mso-fareast-language: EN-CA;"><img 
+	 src="../ExtractUnallocSave.png" alt="" style="border: none;" width="550" 
+	 height="402" border="0" /></p>
+<?rh-list_start class="NumberedList" level="1" ?><p style="text-indent: -20px; 
+													 margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">If you want to save the files in a different 
+ directory, navigate to it. Click <strong>Save</strong>. The progress indicator 
+ in the bottom right corner of the screen shows the status of the extraction. 
+ A message appears when the process completes.</span></p><?rh-list_end ?>
+<p class="MsoNormal" style="mso-ansi-language: EN-CA; mso-fareast-language: EN-CA;"><img 
+	 src="../ExtractCompleteMessage.png" alt="" style="border: none;" width="550" 
+	 height="131" border="0" /></p>
+<?rh-list_start class="NumberedList" level="1" ?><p style="font-size: 10.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 line-height: 115%; 
+													 font-family: Verdana, sans-serif; 
+													 mso-fareast-font-family: 'Times New Roman'; 
+													 mso-bidi-font-family: 'Times New Roman'; 
+													 mso-fareast-theme-font: minor-fareast; 
+													 text-indent: -20px; 
+													 margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="mso-bidi-theme-font: minor-bidi; 
+	 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: EN-US;">To 
+ view the extracted file, navigate to the directory shown in the message. 
+ Files are named according to </span><span lang="EN-US" xml:lang="EN-US" 
+											 style="mso-bidi-theme-font: minor-bidi; 
+											 mso-ansi-language: EN-US; 
+											 mso-fareast-language: EN-US; 
+											 mso-bidi-language: EN-US; 
+											 font-style: italic;">ImageName</span><span 
+	 class="Emphasis">-Unalloc-</span><span lang="EN-US" xml:lang="EN-US" 
+											 style="mso-bidi-theme-font: minor-bidi; 
+											 mso-ansi-language: EN-US; 
+											 mso-fareast-language: EN-US; 
+											 mso-bidi-language: EN-US; 
+											 font-style: italic;">ImageObjectID</span><span 
+	 class="Emphasis">-</span><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-theme-font: minor-bidi; 
+									 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+									 mso-bidi-language: EN-US; font-style: italic;">VolumeID</span><span 
+	 class="Emphasis">.dat</span><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-theme-font: minor-bidi; 
+										 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+										 mso-bidi-language: EN-US;"> This 
+ naming scheme ensures that no duplicate file names occur even if an there 
+ are two images with the same name in a case.</span></p><?rh-list_end ?>
+<p><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+		 mso-bidi-language: EN-US;">You have finished extracting the unallocated 
+ space.</span></p>
+<?rh-placeholder type="footer" ?>
+<?rh-script_start ?><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
+	FilePopupInit('a1');
+	FilePopupInit('a2');
+	FilePopupInit('a3');
+//]]></script><?rh-script_end ?>
+</body>
+</html>

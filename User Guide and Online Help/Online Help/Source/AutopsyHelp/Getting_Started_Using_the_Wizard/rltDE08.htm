@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="template" content="Main.htt" />
+<meta name="topic-check-list" content="Ran Smart Index" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>About Configuring Disk Analysis</title>
+<link rel="StyleSheet" href="../autopsy.css" type="text/css" />
+<style type="text/css">/*<![CDATA[*/
+body {
+	border-left-style: Groove;
+	border-right-style: Groove;
+	border-top-style: Groove;
+	border-bottom-style: Groove;
+	border-left-width: 8px;
+	border-right-width: 8px;
+	border-top-width: 8px;
+	border-bottom-width: 8px;
+}
+/*]]>*/</style>
+</head>
+
+<body><?rh-script_start ?>
+<script type="text/javascript"  src="../ehlpdhtm.js"></script><?rh-script_end ?>
+
+<div style="width: 100%; position: relative;" id="header">
+	<table cellspacing="0" width="100%">
+		<col style="width: 50%;" />
+		<col style="width: 50%;" />
+		<tr>
+			<td style="border-bottom: Solid 4px #efaa0c;">
+   <p style="margin-left: 12px;"><img src="..\Background.png" alt="" style="border: none; margin-left: 10px; 
+			 margin-right: 0px; margin-top: 0px; margin-bottom: 0px;" width="100" height="52" align="left" border="0" /></p></td>
+			<td style="border-bottom: Solid 4px #efaa0c;">
+   <p>&#160;</p></td>
+		</tr>
+	</table>
+	<h6>&#160;</h6>
+</div>
+
+<p style="text-align:right;color:#0000ff;font-family:Verdana;font-size:11pt;font-weight: bold;font-style: normal;text-decoration: none;"><a style="color:#0000ff;font-family:Verdana;font-size:11pt;font-weight: bold;font-style: normal;text-decoration: none;" href="#">Home</a> &gt; About Configuring Disk Analysis</p>
+
+<h1>About Disk Analysis</h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Autopsy refers 
+ to the process of automatically analyzing the disk contents as <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot33651">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot33651', 'POPUP33651');
+//]]></script><span class="glosstext" id="POPUP33651" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span>. 
+ <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot26637" definition="The process of extracting and classifying information from the image file added to Autopsy.">Ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot26637', 'POPUP26637');
+//]]></script><span class="glosstext" id="POPUP26637" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> 
+ extracts the most common types of information needed from a disk image, 
+ which avoids the need to perform the tasks manually. Autopsy processes 
+ the user-related files first, to find the most likely sources of interesting 
+ information. The process runs in the background, which means you can begin 
+ to browse the data while the process continues.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">In this section 
+ you will learn about the types of <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot48665">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot48665', 'POPUP48665');
+//]]></script><span class="glosstext" id="POPUP48665" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> 
+ modules, how to configure <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot32950">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot32950', 'POPUP32950');
+//]]></script><span class="glosstext" id="POPUP32950" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span>, and 
+ how to stop and restart <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot32357">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot32357', 'POPUP32357');
+//]]></script><span class="glosstext" id="POPUP32357" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span>. At the 
+ end of this section, you will know how to customize <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot39217">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot39217', 'POPUP39217');
+//]]></script><span class="glosstext" id="POPUP39217" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> 
+ to analyze the type of information you want to know about in the disk 
+ image.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot30502">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot30502', 'POPUP30502');
+//]]></script><span class="glosstext" id="POPUP30502" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> 
+ process uses modules that analyze specific types of data. There are six 
+ default modules that you can activate depending on the type of data you 
+ want analyzed.</span></p>
+<h2>Ingest Modules</h2>
+<table class="BlueHeaderRow" cellspacing="0px">
+	<col width="127" />
+	<col width="922" />
+	<tr class="t1st">
+		<td>Module Name</td>
+		<td>Purpose</td>
+	</tr>
+	<tr class="t2Row">
+		<td>Keyword Search</td>
+		<td><p><a name="Keyword_Search"><span lang="EN-US" xml:lang="EN-US" 
+												 style="font-size: 10.0pt; 
+												 mso-bidi-font-size: 11.0pt; 
+												 line-height: 115%; font-family: Verdana, sans-serif; 
+												 mso-fareast-font-family: 'Times New Roman'; 
+												 mso-fareast-theme-font: minor-fareast; 
+												 mso-bidi-font-family: 'Times New Roman'; 
+												 mso-bidi-theme-font: minor-bidi; 
+												 background: #ffffff; mso-ansi-language: EN-US; 
+												 mso-fareast-language: EN-US; 
+												 mso-bidi-language: EN-US;">Creates 
+		 an index of keywords using</span><span lang="EN-US" xml:lang="EN-US" 
+												 style="font-size: 10.0pt; 
+												 line-height: 115%; font-family: Arial, sans-serif; 
+												 mso-fareast-font-family: 'Times New Roman'; 
+												 mso-fareast-theme-font: minor-fareast; 
+												 background: #ffffff; mso-ansi-language: EN-US; 
+												 mso-fareast-language: EN-US; 
+												 mso-bidi-language: EN-US;">&#160;Apache</span> 
+		 <span style="text-underline: none;">SOLR</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+		 mso-bidi-language: EN-US;"> search server</span><span lang="EN-US" 
+		 xml:lang="EN-US" style="font-size: 10.0pt; line-height: 115%; 
+		 font-family: Arial, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; background: #ffffff; mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">&#160;</span><span 
+		 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; background: #ffffff; mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">and enables 
+		 you to perform simple keyword searches and define keyword lists 
+		 that are used during ingest to produce search results.</span></a></p></td>
+	</tr>
+	<tr class="t1Row">
+		<td><p style="font-family: Verdana, sans-serif; font-size: 10pt;">Hash 
+		 Database</p></td>
+		<td><p><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">Calculates the <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot51397">MD5</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot51397', 'POPUP51397');
+//]]></script><span class="glosstext" id="POPUP51397" style="display: none;"> Message Data 5 – a one way hash function</span> 
+		 hash of each file and can lookup it up in the and one or more 
+		 hash databases. Categorizes files as known or unknown types, based 
+		 on the contents of the hash database you supplied.</span> </p></td>
+	</tr>
+	<tr class="t2Row">
+		<td>Thunderbird Parser</td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">Extracts the contents of 
+		 email folders from Outlook and Thunderbird email clients.</span> 
+		 </td>
+	</tr>
+	<tr class="t1Row">
+		<td>Exif Parser</td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">Analyzes the <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot25754">metadata</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot25754', 'POPUP25754');
+//]]></script><span class="glosstext" id="POPUP25754" style="display: none;"> Properties of a file attached to the file by some programs</span> 
+		 (location, date, and device used to capture the image) for image 
+		 files, in formats such as <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot61067">JPG</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot61067', 'POPUP61067');
+//]]></script><span class="glosstext" id="POPUP61067" style="display: none;"> Graphics file type/extension (lossy compressed 24 bit color image storage format developed by the Joint Photographic Experts Group)</span> 
+		 and <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot16377">PNG</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot16377', 'POPUP16377');
+//]]></script><span class="glosstext" id="POPUP16377" style="display: none;"> Left panel of main window</span>.</span> </td>
+	</tr>
+	<tr class="t2Row">
+		<td>Recent Activity</td>
+		<td><p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Extracts 
+		 recent user activity by focusing on web artifacts and system settings.</span></p>
+		<?rh-list_start class="BulletList" ?><p style=" margin-left: 20px; text-indent: -20px;"><span style="font-family:'Symbol'">&#183;</span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span 
+		 lang="EN-US" xml:lang="EN-US">Extracts information about the last 
+		 seven days of disk activity</span></p><?rh-list_end ?>
+		<?rh-list_start class="BulletList" ?><p style=" margin-left: 20px; text-indent: -20px;"><span style="font-family:'Symbol'">&#183;</span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span 
+		 lang="EN-US" xml:lang="EN-US">Categorizes files based on the file 
+		 type <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot14154">metadata</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot14154', 'POPUP14154');
+//]]></script><span class="glosstext" id="POPUP14154" style="display: none;"> Properties of a file attached to the file by some programs</span></span></p><?rh-list_end ?>
+		<?rh-list_start class="BulletList" ?><p style=" margin-left: 20px; text-indent: -20px;"><span style="font-family:'Symbol'">&#183;</span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span 
+		 lang="EN-US" xml:lang="EN-US">Extracts Internet artifacts, such 
+		 as downloads, browsing history, installed programs, and search 
+		 engine queries</span></p><?rh-list_end ?>
+		<?rh-list_start class="BulletList" ?><p style=" margin-left: 20px; text-indent: -20px;"><span style="font-family:'Symbol'">&#183;</span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span 
+		 lang="EN-US" xml:lang="EN-US">Determines the device IDs of any 
+		 devices connect to the computer at the time the disk image was 
+		 captured</span></p><?rh-list_end ?>
+		<span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+				 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+				 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+				 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+				 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">The 
+		 module only supports Windows file systems.</span> </td>
+	</tr>
+</table>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">You can also select 
+ whether to analyze the unallocated disk space. This is the area that the 
+ operating system has marked as available for use, but which it has not 
+ yet overwritten with new data. If you choose not process it, <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot42223">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot42223', 'POPUP42223');
+//]]></script><span class="glosstext" id="POPUP42223" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> 
+ will finish more quickly, but you may miss some information.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The size of the 
+ image and the <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot37975">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot37975', 'POPUP37975');
+//]]></script><span class="glosstext" id="POPUP37975" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> modules you use determine 
+ how long it will take to analyze the image contents. If you are not sure 
+ what data you need, you should select all the available modules. If the 
+ process takes too long, you can stop it and deselect some modules. Alternatively, 
+ if you think you only need certain types of information, you can limit 
+ the modules you select, and if you need more information, you can rerun 
+ <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot13372">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot13372', 'POPUP13372');
+//]]></script><span class="glosstext" id="POPUP13372" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> later. For example, if you think 
+ you only need Internet artifacts, you may not need to select the Hash 
+ Lookup module.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The next sections 
+ will show you how to</span></p>
+<?rh-list_start class="BulletList" ?><p style=" margin-left: 20px; text-indent: -20px;"><span style="font-family:'Symbol'">&#183;</span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a 
+	 href="Configuring_Ingest.htm">Configure ingest</a></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style=" margin-left: 20px; text-indent: -20px;"><span style="font-family:'Symbol'">&#183;</span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a 
+	 href="Stopping_and_Rerunning_Ingest.htm">Stop and restart ingest</a></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style=" margin-left: 20px; text-indent: -20px;"><span style="font-family:'Symbol'">&#183;</span><span style='word-spacing:normal; font:6.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><a 
+	 href="Adding_a_Hash_Database.htm">Add a hash database</a> for Autopsy 
+ to use with the hash lookup <a class="glossterm" href="javascript:TextPopup(this)" id="HotSpot20556">ingest</a><script type="text/javascript">//<![CDATA[
+TextPopupInit('HotSpot20556', 'POPUP20556');
+//]]></script><span class="glosstext" id="POPUP20556" style="display: none;"> The process of extracting and classifying information from the image file added to Autopsy.</span> module</p><?rh-list_end ?>
+<h5>See Also</h5>
+<div>
+
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a1" style="font-size: 10pt; 
+		 font-family: Verdana, sans-serif;">How do I speed up Ingest?</a></p>
+<div class="droptext" id="POPUP585177950" style="display: none;">
+	<p>You can disable some ingest modules, such as Hash DatabaseY, which 
+	 can take a long time to run on a large disk image. You can also exclude 
+	 processing the unallocated disk space, although you may miss some 
+	 important information. See <a href="Configuring_Ingest.htm">Configuring 
+	 Ingest</a> for more information.</p>
+</div>
+
+
+</div>
+<div>
+
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a2">I started 
+ ingest through the wizard, but I want to add or remove modules. How do 
+ I stop it and restart it?</a></p>
+<div class="droptext" id="POPUP584961706" style="display: none;">
+	<p>You can stop Ingest by right-clicking in the bottom right corner, 
+	 where you can see the blue progress bar. After you reconfigure Ingest, 
+	 you can restart it by right-clicking the image name in the left panel. 
+	 See <a href="Stopping_and_Rerunning_Ingest.htm">Stopping 
+	 and Restart Ingest</a> for more information.</p>
+</div>
+
+
+</div>
+<p><a name="bookmark"></a></p>
+<p style="margin-left: 12px;">&#160;</p>
+<div style="width: 100%; position: relative;" id="footer">
+	<hr style="color: #efaa0c; background-color: #efaa0c;" size="4" align="center" />
+	<p style="text-align: center;">Copyright 2003-2012 Basis Technology 
+	 For more information, please visit <a href="http://www.sleuthkit.org/autopsy">www.sleuthkit.org</a></p>
+</div>
+
+<?rh-script_start ?><script type="text/javascript">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a1','POPUP585177950');
+	TextPopupInit('a2','POPUP584961706');
+//]]></script><?rh-script_end ?>
+</body>
+</html>

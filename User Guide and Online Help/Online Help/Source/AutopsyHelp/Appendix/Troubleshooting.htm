@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="template" content="Main.htt" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-check-list" content="Ran Smart Index" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>Appendix B: Troubleshooting</title>
+<link rel="StyleSheet" href="..\autopsy.css" type="text/css" />
+</head>
+
+<body>
+<?rh-script_start ?><script src="../ehlpdhtm.js" type="text/javascript" 
+							 language="JavaScript1.2"></script><?rh-script_end ?>
+
+<h1>Troubleshooting</h1>
+<p>This section provides information to help you understand error messages 
+ you may see in Autopsy, possible causes, and suggested solutions.</p>
+<table class="BlueHeaderRow" style="margin-left: .25in; margin-right: .25in; 
+		 border-spacing: px;">
+	<col style="width: 32.043%;" />
+	<col style="width: 33.979%;" />
+	<col style="width: 33.979%;" />
+	<tr class="t1st">
+		<td><h4>Error Message</h4></td>
+		<td><h4>Possible Cause</h4></td>
+		<td><h4>Explanation</h4></td>
+	</tr>
+	<tr class="t2Row">
+		<td><span class="Emphasis" style="font-weight: normal;">When adding 
+		 an image to a case, the message </span><span class="Emphasis">Error 
+		 extracting file from image: (ntfs_uncompress_compunit: Phrase 
+		 token offset is too lart: 1 (max:0)</span><span class="Emphasis" 
+														 style="font-weight: normal;"> 
+		 appears.</span></td>
+		<td>This message occurs when trying to process a compressed&#160;<a 
+		 href="http://wiki.sleuthkit.org/index.php?title=NTFS" title="NTFS">NTFS</a>&#160;file 
+		 that is corrupt. This can occur when a file has been deleted and 
+		 the clusters have been reallocated to another file.</td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">Compare the <?rh-glo_start ?>MD5<?rh-glo_end ?> 
+		 sum of the file you received with that of the original file. If 
+		 it matches, the file is corrupt and you need to capture a new 
+		 image from the original disk. If the MD5 sum does not match, the 
+		 image was corrupted in transit. Ask the investigator who created 
+		 the image to send it to you again.</span> </td>
+	</tr>
+	<tr class="t1Row">
+		<td><span class="Emphasis">Options</span> window shows &quot;<span 
+		 class="Emphasis">Error: Index does not exist&quot;</span></td>
+		<td>After you add a hash database, Autopsy needs to create an index 
+		 to use it.</td>
+		<td>In the <span class="Emphasis">Options</span> window, click 
+		 <span class="Emphasis">Index</span>.</td>
+	</tr>
+	<tr class="t2Row">
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">The ingest message list 
+		 shows &quot;</span><span class="Emphasis">No known bad database 
+		 set</span><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+						 mso-bidi-font-size: 11.0pt; line-height: 115%; 
+						 font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+						 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+						 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+						 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">&quot;</span> 
+		 </td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">You did not supply a hash 
+		 database</span><span style="mso-spacerun: yes;">&#160;</span><span 
+		 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+		 mso-bidi-language: EN-US;">that lists known bad files.</span> 
+		 </td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">If you want Autopsy to 
+		 analyze known bad files, you need to provide separate databases 
+		 for both known good and bad files. If a database contains both 
+		 sets of definitions, such as the <?rh-glo_start ?>NIST<?rh-glo_end ?> 
+		 <?rh-glo_start ?>NSRL<?rh-glo_end ?> database, you must designate 
+		 it as good or bad. You may find information on the Internet about 
+		 methods to separate the database into two parts.</span> </td>
+	</tr>
+	<tr class="t1Row">
+		<td rowspan="2">In the <span class="Emphasis">Result Viewer</span>, 
+		 the file status of all the files is &quot;<a href="javascript:BSSCPopup('../Result_Viewer_Unknown.htm');" 
+														 id="a1">unknown</a>&quot;.</td>
+		<td>You did not add a hash database to categorize files as known 
+		 or unknown.</td>
+		<td>If you did not add a hash database, follow the steps in <a 
+		 href="../Getting_Started_Using_the_Wizard/Adding_a_Hash_Database.htm">Adding 
+		 a Hash Database</a> to add one.</td>
+	</tr>
+	<tr class="t2Row">
+		<td>You did not identify the hash database you added as NSRL, which 
+		 indicates that the files in the database are known good files.</td>
+		<td>You must identify a hash database as either <span class="Emphasis">NSRL</span> 
+		 or <span class="Emphasis">Known Bad</span><span class="Emphasis" 
+														 style="font-weight: normal;">. 
+		 A single hash database </span>cannot be designated as both types. 
+		 Either you need to add a hash database for known good files (<span 
+		 class="Emphasis">NSRL</span>), or change the type of database 
+		 you already added.</td>
+	</tr>
+</table>
+<?rh-placeholder type="footer" ?>
+<?rh-script_start ?><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
+	FilePopupInit('a1');
+//]]></script><?rh-script_end ?>
+</body>
+</html>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="template" content="Main.htt" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="MS-HKWD" content="Timeline" />
+<meta name="topic-check-list" content="Ran Smart Index" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>Creating a Timeline Report</title>
+<link rel="StyleSheet" href="..\autopsy.css" type="text/css" />
+</head>
+
+<body>
+
+<h1>Creating a Timeline Report</h1>
+<p>Autopsy enables you to create a report containing the time information 
+ about each file in the disk image. You can view the report with a spreadsheet 
+ program, such as Microsoft Excel, and work with the data outside of Autopsy. 
+ Using a spreadsheet view, you can view the time information for every 
+ file in the disk image, whereas with the timeline view in Autopsy, you 
+ can only see the files on a per day basis.</p>
+<p>Autopsy generates a text delimited file that you can import into Excel. 
+ The delimiter is “|” (vertical bar). For each item in the file system, 
+ the spreadsheet contains a subset of the information shown in the directory 
+ listing in the <a href="..\Exploring_the_User_Interface\Using_the_Result_Viewer.htm"><span 
+	 class="Emphasis">Result Viewer</span></a>. The spreadsheet does not 
+ show column headings. It shows the information in separate columns in 
+ the following order</p>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US"><?rh-glo_start ?>MD5<?rh-glo_end ?> 
+ sum</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">File or directory name, including the 
+ full path</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Meta Id</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">File permissions</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">User Id</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Group Id</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">File size</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Modified time</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Access time</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Change time</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Created time</span></p><?rh-list_end ?>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">You can use the 
+ spreadsheet features to sort by modification time, access time, creation 
+ time, and change time.</span></p>
+<table class="TableNoBorders" style="border-collapse: collapse; mso-table-layout-alt: fixed; 
+		 mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt;" 
+		 cellspacing="0">
+	<col />
+	<col />
+	<tr class="t1Row" style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; 
+		 mso-yfti-lastrow: yes; height: 31.6pt;">
+		<td style="vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 height="42"><p class="MsoList2CxSpFirst" style="margin-left: 0in; 
+							 mso-add-space: auto; text-indent: 0in; line-height: normal; 
+							 mso-pagination: none; mso-bidi-language: AR-SA;"><img 
+		 src="../note.gif" alt="" border="0" /></p></td>
+		<td style="padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" height="42"><span 
+		 lang="EN-US" xml:lang="EN-US">To view the file, you need a spreadsheet 
+		 program that can open delimited files, such as Microsoft Excel.</span></td>
+	</tr>
+</table>
+<h3>To create a timeline report</h3>
+<?rh-list_start class="NumberedList" ?><p style="mso-list: l0 level1 lfo2; 
+											 text-indent: -20px; margin-left: 40px;"><span 
+	 style="mso-list: l0 level1 lfo2;"><span lang="EN-US" xml:lang="EN-US">On 
+ the toolbar, click <strong>Generate Report.</strong> The <strong>Generate 
+ Report</strong> window appears.</span></span></p><?rh-list_end ?>
+<p class="MsoNormal" style="mso-ansi-language: EN-CA; mso-fareast-language: EN-CA;"><span 
+	 style="mso-bidi-language: AR-SA; mso-no-proof: yes;"><img src="../GenerateReport.png" 
+	 alt="" style="border: none;" width="566" height="372" border="0" /></span></p>
+<?rh-list_start class="NumberedList" ?><p style="mso-list: l0 level1 lfo2; 
+											 text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Select the check box <strong>Body File</strong>. 
+ Clear any other check boxes and click <strong>Finish</strong>. The <strong>Report 
+ Generation Progress</strong> window appears.</span></p><?rh-list_end ?>
+<p class="MsoNormal" style="mso-ansi-language: EN-CA; mso-fareast-language: EN-CA;"><span 
+	 style="mso-bidi-language: AR-SA; mso-no-proof: yes;"><img src="../ExcelTimelineFinished.png" 
+	 alt="" style="border: none;" width="559" height="342" border="0" /></span></p>
+<p><span lang="EN-US" xml:lang="EN-US">D</span><span lang="EN-US" xml:lang="EN-US" 
+													 style="font-size: 10.0pt; 
+													 mso-bidi-font-size: 11.0pt; 
+													 line-height: 115%; 
+													 font-family: Verdana, sans-serif; 
+													 mso-fareast-font-family: 'Times New Roman'; 
+													 mso-fareast-theme-font: minor-fareast; 
+													 mso-bidi-font-family: 'Times New Roman'; 
+													 mso-bidi-theme-font: minor-bidi; 
+													 mso-ansi-language: EN-US; 
+													 mso-fareast-language: EN-US; 
+													 mso-bidi-language: EN-US;">epending 
+ on the size of the report, it may take Autopsy a few seconds to generate 
+ the report. The report is ready to view when you see the check mark beside 
+ the progress bar. Autopsy shows links for the reports you generated.</span></p>
+<p><span lang="EN-US" xml:lang="EN-US">To open the file, click the </span><span 
+	 class="Emphasis">Body File </span><span class="Emphasis" style="font-weight: normal;">link.</span><span 
+	 lang="EN-US" xml:lang="EN-US"> The file opens using your default text 
+ editor, which is typically Notepad.</span></p>
+<?rh-list_start class="NumberedList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">To open the file in Excel or another 
+ spreadsheet program, run the program and open the file BodyFile.txt in 
+ the directory shown in the <strong>Report Generation Progress</strong> 
+ window.</span></p><?rh-list_end ?>
+<?rh-list_start class="NumberedList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Follow the procedure in your spreadsheet 
+ program to import a text file and be sure to specify the character “|” 
+ (vertical bar) as the delimiter.</span></p><?rh-list_end ?>
+<?rh-list_start class="NumberedList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">T</span><span lang="EN-US" xml:lang="EN-US" 
+												 style="font-size: 10.0pt; 
+												 mso-bidi-font-size: 11.0pt; 
+												 line-height: 115%; font-family: Verdana, sans-serif; 
+												 mso-fareast-font-family: 'Times New Roman'; 
+												 mso-fareast-theme-font: minor-fareast; 
+												 mso-bidi-font-family: 'Times New Roman'; 
+												 mso-bidi-theme-font: minor-bidi; 
+												 mso-ansi-language: EN-US; 
+												 mso-fareast-language: EN-US; 
+												 mso-bidi-language: EN-US;">o 
+ close the </span><span class="Emphasis">Report Generation Progress</span><span 
+	 class="Emphasis" style="font-weight: normal;"> window</span><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+	 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+	 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+	 mso-bidi-language: EN-US;">, click </span><span class="Emphasis">Close</span><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+	 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+	 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+	 mso-bidi-language: EN-US;">.</span> </p><?rh-list_end ?>
+<h5>See Also</h5>
+<p>
+<!--Metadata type="DesignerControl" startspan
+<object classid="clsid:FF80F713-5DC6-11d0-A7B4-00AADC53E937" id="RelatedTopics" 
+		 border="0" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; 
+		 margin-right: 0px;" align="bottom">
+<param name="_Version" value="65536"  />
+<param name="_ExtentX" value="2910"  />
+<param name="_ExtentY" value="661"  />
+<param name="_StockProps" value="13"  />
+<param name="ForeColor" value="0"  />
+<param name="BackColor" value="15790320"  />
+<param name="UseButton" value="-1"  />
+<param name="UseText" value="0"  />
+<param name="ControlLabel" value="Related Topics"  />
+<param name="UseIcon" value="0"  />
+<param name="Items" value="Creating a Basic Report;..\Generating_Reports\Creating_a_Basic_Report.htm$$**$$" 
+  />
+<param name="Image" value=""  />
+<param name="FontInfo" value="Verdana,10,0,,"  />
+<param name="_CURRENTFILEPATH" value="C:\Users\Julia\Documents\Tech Writer Program\Online Documentation\Project 1 - Part 1\Autopsy Forensic Browser\AutopsyHelp\Creating_a_Timeline\Creating_a_Timeline_Reportl.htm" 
+  />
+<param name="_ID" value="RelatedTopics"  />
+<param name="UseMenu" value="-1"  />
+<param name="Frame" value=""  />
+<param name="Window" value=""  />
+</object>-->
+<object
+  classid="clsid:ADB880A6-D8FF-11CF-9377-00AA003B7A11"
+  id="RelatedTopics"  type="application/x-oleobject" >
+  <param  name="Command"  value="Related Topics,MENU" />
+  <param  name="Button"  value="Text:Related Topics" />
+  <param  name="Font"  value="Verdana,10,0,," />
+  <param  name="Item1"  value="Creating a Basic Report;..\Generating_Reports\Creating_a_Basic_Report.htm" />
+</object>
+
+<!--Metadata type="DesignerControl" endspan-->
+ </p>
+<?rh-placeholder type="footer" ?>
+</body>
+</html>

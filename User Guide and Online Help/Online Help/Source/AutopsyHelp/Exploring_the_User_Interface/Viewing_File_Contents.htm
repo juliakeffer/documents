@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="template" content="Main.htt" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-check-list" content="Ran Smart Index" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>Viewing File Contents</title>
+<link rel="StyleSheet" href="..\autopsy.css" type="text/css" />
+</head>
+
+<body>
+<?rh-script_start ?><script src="../ehlpdhtm.js" type="text/javascript" 
+							 language="JavaScript1.2"></script><?rh-script_end ?>
+
+<h1><span lang="EN-US" xml:lang="EN-US">Viewing File Contents</span></h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">You can view the 
+ file contents in different formats, depending on the file type. You can 
+ view the file contents in either the <strong><?rh-glo_start ?>Content 
+ Viewer<?rh-glo_end ?></strong> at the bottom of the window or in a new 
+ window.</span></p>
+<h3><span lang="EN-US" xml:lang="EN-US">Text View</span></h3>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The &#160;<a href="javascript:BSSCPopup('../Keyword_Search.htm');" 
+	 id="a1"><strong>Keyword Search</strong></a> ingest module creates 
+ an index of words it can identify in the files on the disk image. This 
+ index is the basis for running keyword searches. If <?rh-glo_start ?>ingest<?rh-glo_end ?> 
+ used the module, to view the results for a file, click the <strong>Text</strong> 
+ tab<strong>.</strong></span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">T</span><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+	 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+	 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+	 mso-bidi-language: EN-US;">he text view and the string view are different 
+ because the string view relies on searching the file for data that appears 
+ to be text.</span><span lang="EN-US" xml:lang="EN-US"> Some file types, 
+ such as PDF files, do not have text data at the byte level, but the keyword 
+ indexing process can interpret a PDF file and produce text. For the files 
+ the module can identify, the file <?rh-glo_start ?>metadata<?rh-glo_end ?> 
+ (such as creation date and author) may appear at the end of the displayed 
+ text. Unlike the string view, the text view cannot view the data in another 
+ language.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">If this tab is 
+ not available, either the file has no text or you did not enable <strong>Keyword 
+ Search</strong> ingest module.</span></p>
+<h3>Result View</h3>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The <strong>Result 
+ View</strong> (not to be confused with the </span><span class="Emphasis">Result 
+ Viewer</span><span lang="EN-US" xml:lang="EN-US">) shows file properties 
+ that were extracted during ingest. This tab is normally available for 
+ items shown under <strong>Results</strong> or <strong>Keyword Hits</strong> 
+ in the </span><a href="javascript:BSSCPopup('../Data_Explorer.htm');" 
+					 id="a3"><span class="Emphasis">Data Explorer</span></a><span 
+	 lang="EN-US" xml:lang="EN-US">. For email messages, this is usually 
+ the most useful view.</span></p>
+<h3>String View</h3>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The <strong>String 
+ View</strong> tab show possible text strings in files, which could be 
+ in binary format. The view shows the strings after they have been decoded, 
+ and interpreted as UTF8/16 for the selected language. The default language 
+ is English. To change the language, on the </span><span class="Emphasis">Tools</span><span 
+	 lang="EN-US" xml:lang="EN-US"> menu, cick <strong>Options</strong>.</span></p>
+<h3><span lang="EN-US" xml:lang="EN-US">Hex View</span></h3>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The <strong>Hex 
+ View</strong> tab shows the raw contents of a file. The file data is represented 
+ as hexadecimal values grouped in two groups of eight bytes, followed by 
+ one group of 16 ASCII characters which are derived from each pair of </span><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+	 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+	 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+	 mso-bidi-language: EN-US;">hexadecimal</span><span lang="EN-US" xml:lang="EN-US"> 
+ values (each byte). Non-printable ASCII characters and characters that 
+ would take more than one character space are typically represented by 
+ a dot (&quot;.&quot;) in the following ASCII field.</span></p>
+<h3>Media View</h3>
+<p><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+		 mso-bidi-language: EN-US;">The Media View is only available for 
+ graphic &#160;images (<?rh-glo_start ?>JPG<?rh-glo_end ?>, <?rh-glo_start ?>GIF<?rh-glo_end ?>, 
+ and <?rh-glo_start ?>PNG<?rh-glo_end ?> format) and video files. You can 
+ use the controls at the bottom of the screen to play a selected video. 
+ The size of the picture or video will be reduced to fit into the screen. 
+ If you want more complex analysis of the media, then you must <a href="..\Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">extract 
+ the file.</a></span> </p>
+<h3><a name="To_view_the_file_contents_in_the_Content_Viewer">To view the 
+ file contents in the Content Viewer</a></h3>
+<?rh-list_start class="NumberedList" ?><p style="mso-list: l0 level1 lfo2; 
+											 text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">In the </span><span class="Emphasis">Result 
+ Viewer</span><span lang="EN-US" xml:lang="EN-US">, click the file in the 
+ list. The contents appear in the <strong>Content Viewer</strong> in the 
+ window at the bottom of the screen.</span></p><?rh-list_end ?>
+<p class="MsoNormal" style="page-break-after: avoid; mso-ansi-language: EN-CA; 
+	 mso-fareast-language: EN-CA; mso-bidi-language: AR-SA; mso-no-proof: yes;"><img 
+	 src="..\ContentViewer.png" alt="" style="border: none;" width="700" 
+	 height="156" border="0" /></p>
+<?rh-list_start class="NumberedList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Click the tabs to view the file in various 
+ formats. The contents of the window change to show the data in the associated 
+ format.</span></p><?rh-list_end ?>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">You can view the 
+ file contents in the <strong>Content Viewer</strong> in a new window or 
+ with an external program. Autopsy chooses the external viewer based on 
+ file type.</span></p>
+<table class="TableNoBorders" style="border-collapse: collapse; mso-table-layout-alt: fixed; 
+		 mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt; 
+		 vertical-align: middle;" cellspacing="0">
+	<col />
+	<col />
+	<tr class="t1Row" style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; 
+		 mso-yfti-lastrow: yes; height: 31.6pt;">
+		<td style="padding: 0in 5.4pt 0in 5.4pt;" height="42"><p class="MsoList2CxSpFirst" 
+			 style="margin-left: 0in; mso-add-space: auto; text-indent: 0in; 
+			 line-height: normal; mso-pagination: none; mso-ansi-language: EN-CA; 
+			 mso-fareast-language: EN-CA;"><span style="mso-bidi-language: AR-SA;"><img 
+		 src="..\note.gif" alt="" border="0" /></span></p></td>
+		<td style="padding: 0in 5.4pt 0in 5.4pt;" height="42"><span style="font-size: 10.0pt; 
+		 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+		 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+		 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+		 mso-ansi-language: EN-CA; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">If 
+		 you want to open the file in an external viewer from within Autopsy</span><span 
+		 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+		 mso-bidi-language: EN-US;">, you need to have the program installed 
+		 on your computer.</span> </td>
+	</tr>
+</table>
+<h3><span lang="EN-US" xml:lang="EN-US"><span lang="EN-US" xml:lang="EN-US">T</span>o 
+ view the file contents in a new window</span></h3>
+<?rh-list_start class="BulletList" start="1" ?><p style="text-indent: -20px; 
+													 margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Right-click the file in the <strong><a 
+	 href="Using_the_Result_Viewer.htm">Result Viewer</a></strong><strong> 
+ </strong></span><strong><span style="font-weight: normal;">and then click 
+ </span><span class="Emphasis">View in New Window</span><span style="font-weight: normal;">.</span></strong></p><?rh-list_end ?>
+<p class="MsoNormal" style="mso-list: none; tab-stops: 142.5pt; mso-tab-count: 1;"><img 
+	 src="..\RightClickNewWindow.png" alt="" style="border: none;" width="700" 
+	 height="343" border="0" /></p>
+<p><span lang="EN-US" xml:lang="EN-US">The <strong>Content Viewer</strong> 
+ appears in a new window. You can view the file contents in the supported 
+ formats.</span></p>
+<h3><span lang="EN-US" xml:lang="EN-US">To view the file contents using 
+ an external viewer</span></h3>
+<?rh-list_start class="BulletList" start="1" ?><p style="text-indent: -20px; 
+													 margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">Right-click the file in the <strong>Result 
+ Viewer</strong></span><strong><span lang="EN-US" xml:lang="EN-US" style="font-weight: normal;"> 
+ and then click </span><span class="Emphasis">Open in External Viewer</span><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-weight: normal;">.</span></strong></p><?rh-list_end ?>
+<p class="MsoNormal" style="mso-ansi-language: EN-CA; mso-fareast-language: EN-CA; 
+	 mso-bidi-language: AR-SA; mso-no-proof: yes;"><img src="..\RightClickExternalViewer.png" 
+														 alt="" style="border: none;" 
+														 width="700" height="343" 
+														 border="0" /></p>
+<p>T<span lang="EN-US" xml:lang="EN-US">he file contents appear in a new 
+ window using the program associated with the file type. For example, if 
+ the file is a Microsoft Word file, Microsoft Word runs and the file appears 
+ in a Microsoft Word window.</span></p>
+<h5><span lang="EN-US" xml:lang="EN-US">See Also</span></h5>
+<p><span lang="EN-US" xml:lang="EN-US">
+<!--Metadata type="DesignerControl" startspan
+<object classid="clsid:FF80F713-5DC6-11d0-A7B4-00AADC53E937" id="RelatedTopics" 
+		 border="0" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; 
+		 margin-right: 0px;" align="bottom">
+<param name="_Version" value="65536"  />
+<param name="_ExtentX" value="2910"  />
+<param name="_ExtentY" value="661"  />
+<param name="_StockProps" value="13"  />
+<param name="ForeColor" value="0"  />
+<param name="BackColor" value="15790320"  />
+<param name="UseButton" value="-1"  />
+<param name="UseText" value="0"  />
+<param name="ControlLabel" value="Related Topics"  />
+<param name="UseIcon" value="0"  />
+<param name="Items" value="Exporting File and Directory Contents;..\Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm$$**$$" 
+  />
+<param name="Image" value=""  />
+<param name="FontInfo" value="Verdana,10,0,,"  />
+<param name="_CURRENTFILEPATH" value="C:\Users\Julia\Documents\Tech Writer Program\Online Documentation\Project 1 - Part 1\Autopsy Forensic Browser\AutopsyHelp\Exploring_the_User_Interface\Viewing_File_Contents.htm" 
+  />
+<param name="_ID" value="RelatedTopics"  />
+<param name="UseMenu" value="-1"  />
+<param name="Frame" value=""  />
+<param name="Window" value=""  />
+</object>-->
+<object
+  classid="clsid:ADB880A6-D8FF-11CF-9377-00AA003B7A11"
+  id="RelatedTopics"  type="application/x-oleobject" >
+  <param  name="Command"  value="Related Topics,MENU" />
+  <param  name="Button"  value="Text:Related Topics" />
+  <param  name="Font"  value="Verdana,10,0,," />
+  <param  name="Item1"  value="Exporting File and Directory Contents;..\Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm" />
+</object>
+
+<!--Metadata type="DesignerControl" endspan-->
+ </span></p>
+<?rh-placeholder type="footer" ?>
+<?rh-script_start ?><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
+	FilePopupInit('a1');
+	FilePopupInit('a3');
+//]]></script><?rh-script_end ?>
+</body>
+</html>

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="template" content="Main.htt" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="MS-HKWD" content="Timeline" />
+<meta name="topic-check-list" content="Ran Smart Index" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>About Timelines</title>
+<link rel="StyleSheet" href="..\autopsy.css" type="text/css" />
+</head>
+
+<body>
+<?rh-script_start ?><script src="../ehlpdhtm.js" type="text/javascript" 
+							 language="JavaScript1.2"></script><?rh-script_end ?>
+
+<h1>About Timelines</h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Each file in the 
+ disk image has information about time the file was create or changed, 
+ when it was modified, and when it was opened for reading.</span></p>
+<table class="TableNoBorders" style="border-collapse: collapse; mso-table-layout-alt: fixed; 
+		 mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt;" 
+		 cellspacing="0">
+	<col />
+	<col />
+	<tr class="t1Row" style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; 
+		 mso-yfti-lastrow: yes; height: 31.6pt;">
+		<td style="vertical-align: top; padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 height="42"><p class="MsoList2CxSpFirst" style="margin-left: 0in; 
+							 mso-add-space: auto; text-indent: 0in; line-height: normal; 
+							 mso-pagination: none; mso-ansi-language: EN-CA; 
+							 mso-fareast-language: EN-CA;"><span style="mso-bidi-language: AR-SA;"><img 
+		 src="../note.gif" alt="" width="47" height="47" border="0" /></span></p></td>
+		<td style="padding: 0in 5.4pt 0in 5.4pt; padding-left: 0px; padding-top: 0px; 
+			 padding-right: 0px; padding-bottom: 0px;" height="42"><span 
+		 lang="EN-US" xml:lang="EN-US">If the files were copied to another 
+		 storage device, such as a USB flash drive, before the image was 
+		 created, the original time data may be lost. Some programs do 
+		 not preserve the original file attributes when files are copied.</span></td>
+	</tr>
+</table>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">A</span>utopsy 
+ bases timeline information on <span lang="EN-US" xml:lang="EN-US"><?rh-glo_start ?>MAC<?rh-glo_end ?></span> 
+ time, which is a numeric representation of a file’s time attributes, which 
+ are</p>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;">Modification 
+ time - the last time the file contents changed</p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;">Access 
+ time – the last the file was most recently opened to read the contents</p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;">Change 
+ time – file permissions changed (Unix)</p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;">Creation 
+ time – when the file was created (Windows)</p><?rh-list_end ?>
+<p class="MsoNormal"><span style="mso-spacerun: yes;">D</span>ifferent 
+ operating systems treat change time and creation time differently. Unix 
+ file systems do not store creation time, and consider that a file changed 
+ when the file’s <span lang="EN-US" xml:lang="EN-US"><?rh-glo_start ?>metadata<?rh-glo_end ?> 
+ </span>changed, not necessarily the file contents. Windows file systems 
+ store creation time and change time indicates when the internal file data 
+ table entry changed.</p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">As part of the 
+ initial analysis, the <a href="javascript:BSSCPopup('../Recent_Activity_Ingest_Module.htm');" 
+							 id="a1"><strong>Recent Activity</strong></a> 
+ ingest module reports the last seven days of activity on the disk in the 
+ <strong>Recent Activity</strong> section of the <strong><a href="javascript:BSSCPopup('../Data_Explorer.htm');" 
+															 id="a2">Data 
+ Explorer</a></strong>.</span></p>
+<p class="MsoNormal" style="mso-ansi-language: EN-CA; mso-fareast-language: EN-CA;"><span 
+	 style="mso-bidi-language: AR-SA; mso-no-proof: yes;"><img src="../RecentActivity.png" 
+	 alt="" style="border: none;" width="316" height="150" border="0" /></span></p>
+<p><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+		 mso-bidi-language: EN-US;">Click the day you want to view and 
+ the results appear in the <strong>Result Viewer</strong>. If there was 
+ no activity on a given day, the <strong>Result Viewer</strong> does not 
+ show any results.</span> </p>
+<p>In this section, you will learn about</p>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US"><a href="Creating_a_Graphical_Timeline.htm">How 
+ to create a graphical timeline using Autopy's timeline feature</a></span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><a 
+	 href="Creating_a_Timeline_Reportl.htm">How to create a timeline report</a></p><?rh-list_end ?>
+<p><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+		 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+		 mso-bidi-language: EN-US;">At the end of this section, you will 
+ know how to view information about the files in the disk image based on 
+ time.</span> </p>
+<h5><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+			 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+			 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+			 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+			 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">See 
+ Also</span></h5>
+<p>
+<!--Metadata type="DesignerControl" startspan
+<object classid="clsid:FF80F713-5DC6-11d0-A7B4-00AADC53E937" id="RelatedTopics" 
+		 border="0" style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; 
+		 margin-right: 0px;" align="bottom">
+<param name="_Version" value="65536"  />
+<param name="_ExtentX" value="2910"  />
+<param name="_ExtentY" value="661"  />
+<param name="_StockProps" value="13"  />
+<param name="ForeColor" value="0"  />
+<param name="BackColor" value="15790320"  />
+<param name="UseButton" value="-1"  />
+<param name="UseText" value="0"  />
+<param name="ControlLabel" value="Related Topics"  />
+<param name="UseIcon" value="0"  />
+<param name="Items" value="About Configuring Disk Analysis;..\Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm$$**$$" 
+  />
+<param name="Image" value=""  />
+<param name="FontInfo" value="Verdana,10,0,,"  />
+<param name="_CURRENTFILEPATH" value="C:\Users\Julia\Documents\Tech Writer Program\Online Documentation\Project 1 - Part 1\Autopsy Forensic Browser\AutopsyHelp\Creating_a_Timeline\About_Timelines.htm" 
+  />
+<param name="_ID" value="RelatedTopics"  />
+<param name="UseMenu" value="-1"  />
+<param name="Frame" value=""  />
+<param name="Window" value=""  />
+</object>--><object
+  classid="clsid:ADB880A6-D8FF-11CF-9377-00AA003B7A11"
+  id="RelatedTopics"  type="application/x-oleobject" >
+  <param  name="Command"  value="Related Topics,MENU" />
+  <param  name="Button"  value="Text:Related Topics" />
+  <param  name="Font"  value="Verdana,10,0,," />
+  <param  name="Item1"  value="About Configuring Disk Analysis;..\Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm" />
+</object>
+<!--Metadata type="DesignerControl" endspan-->
+ </p>
+<?rh-placeholder type="footer" ?>
+<?rh-script_start ?><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( FilePopupInit ) != 'function' ) FilePopupInit = new Function();
+	FilePopupInit('a1');
+	FilePopupInit('a2');
+//]]></script><?rh-script_end ?>
+</body>
+</html>

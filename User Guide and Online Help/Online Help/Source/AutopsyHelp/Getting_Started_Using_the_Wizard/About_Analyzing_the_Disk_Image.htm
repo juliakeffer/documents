@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-check-list" content="Ran Smart Index" />
+<meta name="template" content="Wizard.htt" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>About Analyzing the Disk Image</title>
+<link rel="StyleSheet" href="../autopsy.css" type="text/css" />
+<object id="hhctrl" classid="clsid:ADB880A6-D8FF-11CF-9377-00AA003B7A11" 
+ width="0" height="0" vspace="0" hspace="0" border="0" type="application/x-oleobject"></object>
+</head>
+
+<body>
+
+<h1>About Analyzing the Disk Image</h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">Autopsy refers 
+ to the process of automatically analyzing the disk contents as <?rh-glo_start ?>ingest<?rh-glo_end ?>. 
+ Ingest extracts the most common types of information used in digital forensic 
+ analysis from a disk image, which avoids the need to perform the tasks 
+ manually. Autopsy processes the user-related files first, to find the 
+ most likely sources of interesting information. The process runs in the 
+ background, which enables you to begin browsing the data while the process 
+ continues.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">In this section 
+ you will learn about </span></p>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">The types of ingest modules </span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">How to configure ingest</span></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><span 
+	 lang="EN-US" xml:lang="EN-US">How to cancel and restart ingest </span></p><?rh-list_end ?>
+<p><span lang="EN-US" xml:lang="EN-US">At the end of this section, you 
+ will know how to customize ingest to analyze the type of information you 
+ want to know about in the disk image.</span></p>
+<h2>Ingest Modules</h2>
+<p><span lang="EN-US" xml:lang="EN-US">The ingest process uses modules 
+ that analyze specific types of data. There are five default modules that 
+ you can select to find the type of data you need for your investigation.</span></p>
+<table class="BlueHeaderRow" style="margin-left: 15px; border-spacing: px;">
+	<col width="127" />
+	<col width="922" />
+	<tr class="t1st">
+		<td>Module Name</td>
+		<td>Purpose</td>
+	</tr>
+	<tr class="t2Row">
+		<td>Keyword Search</td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 background: #ffffff; mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">Creates an index of keywords 
+		 using the</span><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+								 line-height: 115%; font-family: Arial, sans-serif; 
+								 mso-fareast-font-family: 'Times New Roman'; 
+								 mso-fareast-theme-font: minor-fareast; 
+								 background: #ffffff; mso-ansi-language: EN-US; 
+								 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">&#160;</span><a 
+		 class="popupspot" href="JavaScript:hhctrl.TextPopup('An open-source search server based on the Lucene Java search library ','Verdana,10',10,10,00000000,0xffffff)"><span 
+		 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; line-height: 115%; 
+		 font-family: Arial, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+		 mso-fareast-theme-font: minor-fareast; background: #ffffff; mso-ansi-language: EN-US; 
+		 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">Apache 
+		 SOLR</span></a><span lang="EN-US" xml:lang="EN-US" style="background: #ffffff; 
+								 font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+								 line-height: 115%; font-family: Verdana, sans-serif; 
+								 mso-fareast-font-family: 'Times New Roman'; 
+								 mso-fareast-theme-font: minor-fareast; 
+								 mso-bidi-font-family: 'Times New Roman'; 
+								 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+								 mso-fareast-language: EN-US; mso-bidi-language: EN-US;"> 
+		 search server. </span><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+									 mso-bidi-font-size: 11.0pt; line-height: 115%; 
+									 font-family: Verdana, sans-serif; 
+									 mso-fareast-font-family: 'Times New Roman'; 
+									 mso-fareast-theme-font: minor-fareast; 
+									 mso-bidi-font-family: 'Times New Roman'; 
+									 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+									 mso-fareast-language: EN-US; mso-bidi-language: EN-US; 
+									 background: #ffffff;">Y</span><span 
+		 style="background: #ffffff;">ou can search the index for keywords 
+		 and define keyword lists that ingest uses to produce search results.</span></td>
+	</tr>
+	<tr class="t1Row">
+		<td>Hash Lookup</td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; 
+					 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+					 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+					 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">Calculates 
+		 the <?rh-glo_start ?>MD5<?rh-glo_end ?> hash of each file. If 
+		 you supply one or more <a class="popupspot" href="JavaScript:hhctrl.TextPopup('A hash database contains a list of MD5 sum values that Autopsy can use to identify files that are “known”. ','Verdana,10',10,10,00000000,0xffffff)">hash 
+		 databases</a>, the module can look up the MD5 sum in the databases 
+		 to categorize the file type as known, unknown or bad.</span></td>
+	</tr>
+	<tr class="t2Row">
+		<td>Thunderbird Parser</td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">Extracts the contents of 
+		 email folders from Outlook and Thunderbird email clients.</span> 
+		 </td>
+	</tr>
+	<tr class="t1Row">
+		<td>Exif Parser</td>
+		<td><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; 
+					 mso-bidi-font-size: 11.0pt; line-height: 115%; font-family: Verdana, sans-serif; 
+					 mso-fareast-font-family: 'Times New Roman'; mso-fareast-theme-font: minor-fareast; 
+					 mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; 
+					 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+					 mso-bidi-language: EN-US;">Analyzes the <?rh-glo_start ?>metadata<?rh-glo_end ?> 
+		 for graphic images files (location, date, and device used to capture 
+		 the image). Can detect file formats <?rh-glo_start ?>JPG<?rh-glo_end ?>, 
+		 <?rh-glo_start ?>GIF<?rh-glo_end ?>, and <?rh-glo_start ?>PNG<?rh-glo_end ?>.</span> 
+		 </td>
+	</tr>
+	<tr class="t2Row">
+		<td>Recent Activity</td>
+		<td><span lang="EN-US" xml:lang="EN-US">Extracts recent user activity 
+		 by focusing on web artifacts and system settings.</span> 
+		<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; 
+												 margin-left: 40px;"><span 
+		 lang="EN-US" xml:lang="EN-US">Extracts information about the last 
+		 seven days of disk activity</span></p><?rh-list_end ?>
+		<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; 
+												 margin-left: 40px;"><span 
+		 lang="EN-US" xml:lang="EN-US">Categorizes files based on the file 
+		 type metadata</span></p><?rh-list_end ?>
+		<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; 
+												 margin-left: 40px;"><span 
+		 lang="EN-US" xml:lang="EN-US">Extracts Internet artifacts, such 
+		 as downloads, browsing history, bookmarks, cookies, and search 
+		 engine queries</span></p><?rh-list_end ?>
+		<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; 
+												 margin-left: 40px;"><span 
+		 lang="EN-US" xml:lang="EN-US">Determines the device IDs of any 
+		 devices connect to the computer at the time the disk image was 
+		 captured</span></p><?rh-list_end ?>
+		<span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; 
+				 line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; 
+				 mso-fareast-theme-font: minor-fareast; mso-bidi-font-family: 'Times New Roman'; 
+				 mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; 
+				 mso-fareast-language: EN-US; mso-bidi-language: EN-US;">The 
+		 module only supports Windows file systems.</span></td>
+	</tr>
+</table>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">You can also select 
+ whether to analyze the unallocated disk space. This is the area that the 
+ operating system has marked as available for use, but which it has not 
+ yet overwritten with new data. If you choose not process it, ingest will 
+ finish more quickly, but you may miss some information.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The size of the 
+ image and the ingest modules you use determine how long it will take to 
+ analyze the image contents. If you are not sure what data you need, you 
+ should select all the available modules. If the process takes too long, 
+ you can cancel it and clear some modules. Alternatively, if you think 
+ you only need certain types of information, you can limit the modules 
+ you select, and if you need more information, you can restart ingest later. 
+ For example, if you think you only need Internet artifacts, you may not 
+ need to select the </span><span class="Emphasis">Hash Lookup</span><span 
+	 lang="EN-US" xml:lang="EN-US"> module.</span></p>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US">The next sections 
+ will show you how to</span></p>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><a 
+	 href="Configuring_Ingest.htm">Configure ingest</a></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><a 
+	 href="Cancelling_and_Restarting_Ingest.htm">Cancel and restart ingest</a></p><?rh-list_end ?>
+<?rh-list_start class="BulletList" ?><p style="text-indent: -20px; margin-left: 40px;"><a 
+	 href="Adding_a_Hash_Database.htm">Add a hash database</a> for Autopsy 
+ to use with the hash lookup ingest module</p><?rh-list_end ?>
+<h5>See Also</h5>
+<?rh-placeholder type="snippet" ref="SpeedupIngest" ?>
+<?rh-placeholder type="snippet" ref="StopIngestandReconfigure" ?>
+<?rh-placeholder type="footer" ?>
+</body>
+</html>
