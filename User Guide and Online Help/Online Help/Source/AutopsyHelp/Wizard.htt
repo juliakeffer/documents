@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>Main</title>
+<link rel="StyleSheet" href="autopsy.css" type="text/css" />
+<style type="text/css">/*<![CDATA[*/
+body {
+	border-left-style: Groove;
+	border-right-style: Groove;
+	border-top-style: Groove;
+	border-bottom-style: Groove;
+	border-left-width: 8px;
+	border-right-width: 8px;
+	border-top-width: 8px;
+	border-bottom-width: 8px;
+}
+/*]]>*/</style>
+</head>
+
+<body>
+<?rh-placeholder type="breadcrumbs" id="div1" ph-align="2" usetopicformat="0" 
+ home="Home" sep-char=" &gt; " ph-bgcolor="#70b7ff" ph-style="color:#ffffff;font-family:Verdana;font-size:11pt;font-weight: bold;font-style: normal;text-decoration: none;" ?>
+<hr style="color: #efaa0c; background-color: #efaa0c; float: aligncenter; " 
+	 size="4" align="center" />
+<p><img src="Summary.png" alt="" usemap="#MAP496022321" style="border: none; 
+		 margin-left: 10px; margin-right: 0px; margin-top: 0px; margin-bottom: 0px;" 
+		 width="506" height="222" align="right" border="0" />
+<map id="MAP496022321" name="MAP496022321">
+<area shape="rect" coords="9, 8, 135, 86" href="Getting_Started_Using_the_Wizard/Creating_a_Case.htm" 
+		 alt="" />
+<area shape="rect" coords="190, 10, 317, 85" href="Getting_Started_Using_the_Wizard/Adding_a_Disk_Image.htm" 
+		 alt="" />
+<area shape="rect" coords="373, 8, 496, 84" href="Getting_Started_Using_the_Wizard/Configuring_Ingest.htm" 
+		 alt="" />
+<area shape="rect" coords="370, 139, 498, 214" href="Getting_Started_Using_the_Wizard/Cancelling_and_Restarting_Ingest.htm" 
+		 alt="" />
+<area shape="rect" coords="191, 139, 317, 215" href="Exploring_the_User_Interface/About_Exploring_the_User_Interface.htm" 
+		 alt="" />
+</map></p>
+<?rh-region_start type="body" ?>
+	<p style="margin-left: 12px;">This is Body Placeholder text for your 
+	 Master Page. Topics created using this Master Page will get this text 
+	 by default. Replace text of this Body Placeholder with your default 
+	 content for topics.</p>
+	<p style="margin-left: 12px;">&#160;</p>
+	<p style="margin-left: 12px;">Area outside this Body Placeholder represents 
+	 the layout of the Master Page which will not be shown in the associated 
+	 topics but will be present in the output. The Body Placeholder content 
+	 will be replaced by actual topic content in the output.</p>
+	<p style="margin-left: 12px;">&#160;</p>
+	<p style="margin-left: 12px;">Use Master Page to define the layout 
+	 of your topic in the output.</p>
+<?rh-region_end type="body" ?>
+<?rh-region_start type="footer" style="width: 100%; position: relative;" ?>
+	<hr style="color: #efaa0c; background-color: #efaa0c;" size="4" align="center" />
+	<p style="text-align: center;">Copyright 2003-2013 For more information, 
+	 please visit <a href="http://www.sleuthkit.org/autopsy">www.sleuthkit.org/autopsy</a></p>
+<?rh-region_end type="footer" ?>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="4" minorversion="0">
+	<topics>
+		<topic>
+			<name>About_Extracting_Information.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+		<topic>
+			<name>Extracting_File_and_Directory_Contents.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+		<topic>
+			<name>Extracting_Unallocated_Disk_Space.htm</name>
+			<comments></comments>
+			<frameset>0</frameset>
+		</topic>
+	</topics>
+</rhpml>

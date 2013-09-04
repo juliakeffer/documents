@@ -1,0 +1,378 @@
+﻿/*Created with Adobe RoboHelp 9.*/
+BODY {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+H1 {
+	font-weight: bold;
+	font-size: 18pt;
+	x-next-class: ;
+	x-next-type: P;
+	color: #efaa0c;
+}
+H2 {
+	font-weight: bold;
+	color: #007fff;
+	font-size: 14pt;
+	x-next-class: ;
+	x-next-type: P;
+}
+H3 {
+	font-weight: bold;
+	x-next-class: ;
+	x-next-type: P;
+	font-size: 12pt;
+}
+H4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+P {
+	margin-top: 0pt;
+	font-family: Verdana;
+	font-size: 10pt;
+	margin-bottom: 9pt;
+}
+A.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+A.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+A.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+OL,
+UL {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+table.Style1 {
+}
+p.List {
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	margin-left: 0in;
+}
+rh-list.ListNumberedMulti {
+	x-lvl-2-type: lower-alpha;
+	x-lvl-2-format: "<x>&c";
+	x-lvl-3-type: lower-roman;
+	x-lvl-3-format: "<x>&c";
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-format: "<x>.";
+	x-lvl-1-margin: 40px;
+	x-lvl-1-text-indent: -30px;
+	x-lvl-1-p-class: List;
+	x-lvl-1-p-tag: p;
+	x-lvl-2-margin: 50px;
+	x-lvl-2-text-indent: -30px;
+	x-lvl-2-p-class: List;
+	x-lvl-2-p-tag: p;
+	x-level-count: 9;
+	x-lvl-3-margin: 70px;
+	x-lvl-3-text-indent: -30px;
+	x-lvl-3-p-class: List;
+	x-lvl-3-p-tag: p;
+}
+rh-list.ListBulletMulti {
+	x-lvl-3-type: lower-roman;
+	x-lvl-3-format: "<x>&c";
+	x-lvl-3-margin: 40px;
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-type: filled-circle;
+	x-lvl-1-format: "<x>";
+	x-lvl-2-format: "<x>";
+	x-lvl-2-type: diamond;
+	x-lvl-2-margin: 20px;
+	x-level-count: 9;
+	x-lvl-1-margin: 10px;
+	x-lvl-1-p-class: List;
+	x-lvl-1-p-tag: p;
+}
+p.Hyperlink {
+}
+span.Emphasis {
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+}
+span.StrongEmphasis {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Verdana;
+}
+p.Code {
+	font-family: "Courier New";
+}
+table.TopRowLeftColumn {
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	x-1st-col: 1;
+	x-1st-col-name: t1st;
+	x-border-spacing: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	margin-top: 12px;
+}
+table.TopRowLeftColumn tr.t1Row td {
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-family: Verdana;
+}
+table.TopRowLeftColumn tr.t2Row td {
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-family: Verdana;
+}
+table.TopRowLeftColumn tr.t1st td {
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: Center;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	background-color: #70b7ff;
+	font-family: Verdana;
+}
+table.TopRowLeftColumn td.t1st {
+	text-align: Center;
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-weight: bold;
+	background-color: #70b7ff;
+	font-family: Verdana;
+}
+table.toprowleftcolumn tr.t1row td.t1st {
+	text-align: Center;
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-weight: bold;
+	background-color: #70b7ff;
+	font-family: Verdana;
+}
+table.toprowleftcolumn tr.t2row td.t1st {
+	text-align: Center;
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-weight: bold;
+	background-color: #70b7ff;
+	font-family: Verdana;
+}
+table.TopRow {
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	x-border-spacing: 0px;
+	font-family: Verdana;
+	font-size: 10pt;
+	margin-top: 12px;
+}
+table.TopRow tr.t1st td {
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: Center;
+	background-color: #70b7ff;
+	font-family: Verdana;
+}
+table.TopRow tr.t1Row td {
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-family: Verdana;
+}
+table.TopRow tr.t2Row td {
+	font-size: 10pt;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	font-family: Verdana;
+}
+table.TopRow td {
+	padding-left: 3px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}

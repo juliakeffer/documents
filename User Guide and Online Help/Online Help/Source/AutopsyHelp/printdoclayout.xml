@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<!--Printed Documentation Layout-->
+<printdoclayout version="2">
+  <temphistory/>
+ <stylemapping>
+   <templatefile type="msword" filename="Style Mapping.dot"/>
+   <maps/>
+ </stylemapping>
+ <tocstructure>
+   <page name="Welcome" topic="Welcome.htm" flags="0" topicid="-1"/>
+  <chapter name="Getting Started Using the Wizard">
+    <page name="About the Wizard" topic="Getting_Started_Using_the_Wizard\About_the_Wizard.htm" flags="0" topicid="-1"/>
+    <page name="Creating a Case" topic="Getting_Started_Using_the_Wizard\Creating_a_Case.htm" flags="0" topicid="-1"/>
+    <page name="Adding a Disk Image" topic="Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm" flags="0" topicid="-1"/>
+   <chapter name="Analyzing the Disk Image Contents">
+     <page name="About Analyzing the Disk Image" topic="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm" flags="0" topicid="-1"/>
+     <page name="Configuring Ingest" topic="Getting_Started_Using_the_Wizard\Configuring_Ingest.htm" flags="0" topicid="-1"/>
+     <page name="Cancelling and Restarting Ingest" topic="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm" flags="0" topicid="-1"/>
+     <page name="Adding a Hash Database" topic="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm" flags="0" topicid="-1"/>
+   </chapter>
+  </chapter>
+  <chapter name="Exploring Analyzed Data">
+    <page name="About Exploring Analyzed Data" topic="Exploring_the_User_Interface\About_Exploring_the_User_Interface.htm" flags="0" topicid="-1"/>
+    <page name="Using the Data Explorer" topic="Exploring_the_User_Interface\Using_the_Data_Explorer.htm" flags="0" topicid="-1"/>
+    <page name="Using the Result Viewer" topic="Exploring_the_User_Interface\Using_the_Result_Viewer.htm" flags="0" topicid="-1"/>
+    <page name="Viewing File Contents" topic="Exploring_the_User_Interface\Viewing_File_Contents.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Searching File Contents">
+    <page name="About Searching File Contents" topic="Searching_File_Contents\About_File_Content_Search.htm" flags="0" topicid="-1"/>
+    <page name="Creating and Managing Keyword Lists" topic="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm" flags="0" topicid="-1"/>
+    <page name="Saving File Locations" topic="Searching_File_Contents\Saving_File_Locations.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Generating Reports">
+    <page name="About Reports" topic="Generating_Reports\About_Reports.htm" flags="0" topicid="-1"/>
+    <page name="Creating a Basic Report" topic="Generating_Reports\Creating_a_Basic_Report.htm" flags="0" topicid="-1"/>
+    <page name="Creating a Custom Report" topic="Generating_Reports\Creating_a_Custom_Report.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Creating a Timeline">
+    <page name="About Timelines" topic="Creating_a_Timeline\About_Timelines.htm" flags="0" topicid="-1"/>
+    <page name="Creating a Graphical Timeline" topic="Creating_a_Timeline\Creating_a_Graphical_Timeline.htm" flags="0" topicid="-1"/>
+    <page name="Creating a Timeline Report" topic="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Collecting Files for Later Analysis">
+    <page name="About Extracting Information" topic="Collecting_Files_for_Later_Analysis\About_Extracting_Information.htm" flags="0" topicid="-1"/>
+    <page name="Extracting File and Directory Contents" topic="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm" flags="0" topicid="-1"/>
+    <page name="Extracting Unallocated Disk Space" topic="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm" flags="0" topicid="-1"/>
+  </chapter>
+  <chapter name="Appendix">
+    <page name="Appendix A: Toolbar Reference" topic="Appendix\Toolbar_Reference.htm" flags="0" topicid="-1"/>
+    <page name="Appendix B: Troubleshooting" topic="Appendix\Troubleshooting.htm" flags="0" topicid="-1"/>
+    <page name="Appendix C: FAQ" topic="Appendix\FAQ.htm" flags="0" topicid="-1"/>
+  </chapter>
+ </tocstructure>
+  <sectionhistory/>
+ <sectionlist>
+   <section type="defaulttitlepage" name="&lt;Default Title Page&gt;" url="" flags="0" topicid="-1"/>
+   <section type="toc" name="TOC" url="" flags="0" topicid="-1"/>
+   <section type="topics" name="Chapter Layout" url="" flags="0" topicid="-1"/>
+   <section type="glossary" name="Glossary" url="" flags="0" topicid="-1"/>
+   <section type="index" name="Index" url="" flags="0" topicid="-1"/>
+ </sectionlist>
+  <robopdfgeneratorsettings data="resIndex=3&amp;jpegImageQuality=75&amp;imageDPI=96&amp;quiet=0&amp;Quality=3&amp;resolution=96&amp;customResolution=300&amp;customImageDPI=96&amp;customJpegImageQuality=75&amp;pdfTemplateEnable=0&amp;pdfTemplateOnTop=0&amp;pdfTemplate=&amp;watermark=&amp;watermarkText=&amp;watermarkFontName=Arial&amp;watermarkFontSize=48&amp;watermarkStyle=0&amp;watermarkColor=90&amp;sd_permissionFlags=-64&amp;sd_enabled=0&amp;sd_keyLen=16&amp;sd_up=&amp;sd_op=&amp;"/>
+</printdoclayout>

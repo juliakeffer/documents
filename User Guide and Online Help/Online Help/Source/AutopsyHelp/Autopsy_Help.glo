@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossary version="1.0">
+	<glossentry>
+		<glossterm>Apache SOLR</glossterm>
+		<glossdef>An open-source search server based on the Lucene Java search library</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>CSV</glossterm>
+		<glossdef>Comma separated file, a text file with a series of fields separated by a delimiter</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>E01</glossterm>
+		<glossdef>EnCase disk image format</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>EnCase</glossterm>
+		<glossdef>Computer forensics software by Guidance Software Inc.</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Ext2</glossterm>
+		<glossdef>Extended file system format, used by Linux operating systems, format Ext2</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Ext3</glossterm>
+		<glossdef>Extended file system format, used by Linux operating systems, format Ext3</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>FAT</glossterm>
+		<glossdef>File Allocation Table, file system format used by Windows operating systems, FAT12, FAT16, FAT32</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>GIF</glossterm>
+		<glossdef>Graphic Interchange Format</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>HFS+</glossterm>
+		<glossdef>Hierarchical File System Plus, used by Apple file systems</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>HTML</glossterm>
+		<glossdef>Hyper-Text Markup Language</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Ingest</glossterm>
+		<glossdef>The process of extracting and classifying information from the disk image file added to Autopsy.</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>IP Address</glossterm>
+		<glossdef>Internet Protocol Address</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>ISO9660</glossterm>
+		<glossdef>File system for optial disk media, also known as Compact Disk File System (CDFS)</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>JPG</glossterm>
+		<glossdef>Graphics file type/extension (lossy compressed 24 bit color image storage format developed by the Joint Photographic Experts Group)</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>MAC</glossterm>
+		<glossdef>Modify, Access, Change, Creation time, time properties of a file</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>MD5</glossterm>
+		<glossdef>Message Data 5 – a one way hash function</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Metadata</glossterm>
+		<glossdef>Properties of a file attached to the file by some programs</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>NIST</glossterm>
+		<glossdef>National Institute of Standards and Technology</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>NSRL</glossterm>
+		<glossdef>National Software Reference Library</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>NTFS</glossterm>
+		<glossdef>New Technology File System, a Windows file system format</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>PNG</glossterm>
+		<glossdef>Portable Network Graphics, a bitmap image format that uses lossless data compression</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Raw disk image</glossterm>
+		<glossdef>A byte-for-byte copy of the disk contents. It can be a single file, such as img or dd extension or a set of files, such as .001, 002 extensions.</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Tag</glossterm>
+		<glossdef>A file bookmark in Autopsy</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>Timeline</glossterm>
+		<glossdef>A history of activity on the disk from which the image was captured</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>UFS</glossterm>
+		<glossdef>Unix File System, also known as Berkeley Fast File System</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>URL</glossterm>
+		<glossdef>Universal Resource Locator, a web page address</glossdef>
+	</glossentry>
+	<glossentry>
+		<glossterm>UTF</glossterm>
+		<glossdef>Unicode Transformation Format - the computing industry standard for the consistent encoding, representation and handling of text</glossdef>
+	</glossentry>
+</glossary>

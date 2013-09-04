@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="4" minorversion="0">
+	<files>
+		<file>
+			<name>SpeedupIngest.hts</name>
+			<comments></comments>
+			<category>Ingest</category>
+		</file>
+		<file>
+			<name>StopIngestandReconfigure.hts</name>
+			<comments></comments>
+			<category>Ingest</category>
+		</file>
+		<file>
+			<name>MultipleImagesToACase.hts</name>
+			<comments></comments>
+			<category>Ingest</category>
+		</file>
+		<file>
+			<name>UnrelatedIPHits.hts</name>
+			<comments></comments>
+			<category>Ingest</category>
+		</file>
+	</files>
+</rhpml>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>UnrelatedIPHits</title>
+</head>
+
+<body>
+<?rh-script_start ?><script src="ehlpdhtm.js" type="text/javascript" language="JavaScript1.2"></script><?rh-script_end ?>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a1">Why does 
+ the search for IP addresses show items that are not IP addresses?</a></p>
+<div class="droptext" id="POPUP463662623" style="display: none;">
+	<p>The search tries to match four numbers separated by periods, which 
+	 is a standard IP address format. However, this format is often used 
+	 for other types of information, such as version numbers. If the list 
+	 contains too many unrelated results, you may need to create a custom 
+	 search.</p>
+</div>
+<?rh-script_start ?><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a1', 'POPUP463662623');
+//]]></script><?rh-script_end ?>
+</body>
+</html>

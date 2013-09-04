@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-comment" content="Stop Ingest after it starts to reconfigure it" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>StopIngestandReconfigure</title>
+</head>
+
+<body>
+<?rh-script_start ?><script src="ehlpdhtm.js" type="text/javascript" language="JavaScript1.2"></script><?rh-script_end ?>
+<p><a class="dropspot" href="javascript:TextPopup(this)" id="a1">I started 
+ ingest through the wizard, but I want to add or remove modules. How do 
+ I stop it and restart it?</a></p>
+<div class="droptext" id="POPUP584961706" style="display: none;">
+	<p>In the bottom right corner, right-click the blue progress bar and 
+	 click <span style="font-weight: bold;">Cancel Process</span>. After 
+	 you reconfigure ingest, to restart it, right-click the image name 
+	 in the <a href="Data_Explorer.htm">Data Explorer</a>. See <a href="Getting_Started_Using_the_Wizard/Cancelling_and_Restarting_Ingest.htm">Cancelling 
+	 and Restarting Ingest</a> for more information.</p>
+</div>
+<?rh-script_start ?><script type="text/javascript" language="JavaScript1.2">//<![CDATA[
+	if( typeof( TextPopupInit ) != 'function' ) TextPopupInit = new Function();
+	TextPopupInit('a1', 'POPUP584961706');
+//]]></script><?rh-script_end ?>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿[OPTIONS]
+Compiled File=Autopsy Help.chm
+Title=Autopsy Help
+Contents File=Autopsy Help.hhc
+Index File=Autopsy Help.hhk
+Default topic=Welcome.htm
+Default Window=
+Error log file=
+Display compile progress=No
+Display compile notes=No
+Full-text search=Yes
+Binary Index=Yes
+Auto Index=No
+Enhanced decompilation=No
+Binary TOC=No
+Flat=No
+
+[WINDOWS]
+
+[FILES]
+Appendix\FAQ.htm
+Appendix\Troubleshooting.htm
+Creating_a_Timeline\About_Timelines.htm
+Creating_a_Timeline\Creating_a_Graphical_Timeline.htm
+Creating_a_Timeline\Creating_a_Timeline_Reportl.htm
+Collecting_Files_for_Later_Analysis\About_Extracting_Information.htm
+Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm
+Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm
+Searching_File_Contents\Saving_File_Locations.htm
+Getting_Started_Using_the_Wizard\Creating_a_Case.htm
+Exploring_the_User_Interface\Viewing_File_Contents.htm
+Getting_Started_Using_the_Wizard\Deleting_a_Case.htm
+Getting_Started_Using_the_Wizard\About_the_Wizard.htm
+Getting_Started_Using_the_Wizard\Opening_An_Existing_Case.htm
+Generating_Reports\About_Reports.htm
+Welcome.htm
+Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm
+Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm
+Searching_File_Contents\Searching_Using_Builtin_Keywords.htm
+Generating_Reports\Creating_a_Basic_Report.htm
+Generating_Reports\Creating_a_Custom_Report.htm
+Searching_File_Contents\About_File_Content_Search.htm
+Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm
+Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm
+Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm
+Getting_Started_Using_the_Wizard\Configuring_Ingest.htm
+Appendix\Toolbar_Reference.htm
+Thunderbird_Parser.htm
+Recent_Activity_Ingest_Module.htm
+Hash_Lookup_Ingest_Module.htm
+Keyword_Search.htm
+Data_Explorer.htm
+Glossary.htm
+Exploring_the_User_Interface\Using_the_Data_Explorer.htm
+Exploring_the_User_Interface\About_Exploring_the_User_Interface.htm
+Exploring_the_User_Interface\Using_the_Result_Viewer.htm
+Creating_a_Timeline\Timeline_Graph.htm
+Result_Viewer_Unknown.htm
+DigitalForensicsOverview.htm
+
+Autopsy_Help.glo
+Autopsy Help.brs
+[ALIAS]
+#include Autopsy Help.ali
+
+[MAP]
+#include BSSCDefault.h
+
+[TEXT POPUPS]
+BSSCDefault.h
+
+

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1.0">
+	<properties>
+	</properties>
+	<item name="Bookmark" seealso="Tag">
+	</item>
+	<item name="Data Explorer">
+		<section name="About Timelines" link="Creating_a_Timeline\About_Timelines.htm">
+		</section>
+		<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</section>
+		<section name="Stopping and Rerunning Ingest" link="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm">
+		</section>
+		<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+		</section>
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+		<section name="Exporting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+		</section>
+	</item>
+	<item name="Content Viewer">
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+		<section name="Creating a Graphical Timeline" link="Creating_a_Timeline\Creating_a_Graphical_Timeline.htm">
+		</section>
+	</item>
+	<item name="Result Viewer">
+		<section name="About Timelines" link="Creating_a_Timeline\About_Timelines.htm">
+		</section>
+		<section name="Saving File Locations" link="Searching_File_Contents\Saving_File_Locations.htm">
+		</section>
+		<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</section>
+		<section name="Exporting File Data to Excel" link="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm">
+		</section>
+		<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+		</section>
+		<section name="Creating a Graphical Timeline" link="Creating_a_Timeline\Creating_a_Graphical_Timeline.htm">
+		</section>
+		<section name="Exporting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+		</section>
+	</item>
+	<item name="Metadata">
+		<section name="About Timelines" link="Creating_a_Timeline\About_Timelines.htm">
+		</section>
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+	</item>
+	<item name="Recent Activity">
+		<section name="About Timelines" link="Creating_a_Timeline\About_Timelines.htm">
+		</section>
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+	</item>
+	<item name="MAC">
+		<section name="About Timelines" link="Creating_a_Timeline\About_Timelines.htm">
+		</section>
+	</item>
+	<item name="Validation Error">
+		<section name="Appendix A: Troubleshooting" link="Appendix\Troubleshooting.htm">
+		</section>
+	</item>
+	<item name="Case">
+		<section name="Deleting a Case" link="Getting_Started_Using_the_Wizard\Deleting_a_Case.htm">
+		</section>
+		<section name="Opening An Existing Case" link="Getting_Started_Using_the_Wizard\Opening_An_Existing_Case.htm">
+		</section>
+		<item name="Deleting">
+			<section name="Deleting a Case" link="Getting_Started_Using_the_Wizard\Deleting_a_Case.htm">
+			</section>
+		</item>
+		<item name="Creating">
+			<section name="Creating a Case" link="Getting_Started_Using_the_Wizard\Creating_a_Case.htm">
+			</section>
+		</item>
+		<item name="New Case Information">
+			<section name="Creating a Case" link="Getting_Started_Using_the_Wizard\Creating_a_Case.htm">
+			</section>
+		</item>
+		<item name="Case Number">
+			<section name="Creating a Case" link="Getting_Started_Using_the_Wizard\Creating_a_Case.htm">
+			</section>
+		</item>
+	</item>
+	<item name="File">
+		<item name="Exporting">
+			<section name="Exporting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+			</section>
+		</item>
+		<item name="Saving">
+			<section name="Saving File Locations" link="Searching_File_Contents\Saving_File_Locations.htm">
+			</section>
+		</item>
+		<item name="Extracing">
+			<section name="Exporting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+			</section>
+		</item>
+		<item name="Known Bad">
+			<section name="Appendix C: FAQ" link="Appendix\FAQ.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Java Regex">
+		<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</section>
+	</item>
+	<item name="Search">
+		<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</section>
+		<section name="Searching File Contents for Internet Information" link="Searching_File_Contents\Searching_Using_Builtin_Keywords.htm">
+		</section>
+	</item>
+	<item name="Advanced Keyword Search Configuration">
+		<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</section>
+	</item>
+	<item name="CSV file">
+		<section name="About Reports" link="Generating_Reports\About_Reports.htm">
+		</section>
+		<item name="viewing">
+			<section name="About Reports" link="Generating_Reports\About_Reports.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Excel">
+		<section name="About Reports" link="Generating_Reports\About_Reports.htm">
+		</section>
+		<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+		</section>
+		<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+		</section>
+		<section name="Creating a Timeline Report" link="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm">
+		</section>
+	</item>
+	<item name="HTML">
+		<section name="About Reports" link="Generating_Reports\About_Reports.htm">
+		</section>
+		<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+		</section>
+		<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+		</section>
+	</item>
+	<item name="Microsoft Excel">
+		<section name="About Reports" link="Generating_Reports\About_Reports.htm">
+		</section>
+		<section name="Exporting File Data to Excel" link="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm">
+		</section>
+		<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+		</section>
+	</item>
+	<item name="Reports">
+		<section name="About Reports" link="Generating_Reports\About_Reports.htm">
+		</section>
+		<section name="Creating a Timeline Report" link="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm">
+		</section>
+		<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+		</section>
+		<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+		</section>
+	</item>
+	<item name="Generate Report">
+		<section name="Exporting File Data to Excel" link="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm">
+		</section>
+		<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+		</section>
+		<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+		</section>
+		<item name="Generate Report window">
+			<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+			</section>
+			<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Tools menu">
+		<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+		</section>
+		<section name="Creating a Graphical Timeline" link="Creating_a_Timeline\Creating_a_Graphical_Timeline.htm">
+		</section>
+	</item>
+	<item name="Known Bad">
+		<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+		</section>
+	</item>
+	<item name="EnCase">
+		<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+		</section>
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="Hash Database">
+		<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+		</section>
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+		<item name="Adding">
+			<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+			</section>
+		</item>
+		<item name="Hash Lookup">
+			<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+			</section>
+			<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+			</section>
+		</item>
+		<item name="NSRL">
+			<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+			</section>
+		</item>
+		<item name="HashKeeper">
+			<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+			</section>
+			<section name="Welcome" link="Welcome.htm">
+			</section>
+		</item>
+		<item name="NIST NSRL">
+			<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+			</section>
+			<section name="Welcome" link="Welcome.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Restarting Ingest">
+		<section name="Stopping and Rerunning Ingest" link="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm">
+		</section>
+	</item>
+	<item name="MD5">
+		<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+		</section>
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+		<section name="Exporting File Data to Excel" link="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm">
+		</section>
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+	</item>
+	<item name="Image" seealso="Disk Image">
+	</item>
+	<item name="Hex View">
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+	</item>
+	<item name="HFS">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="FAQ" seealso="Frequently Asked Questions">
+	</item>
+	<item name="NTFS">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+		<section name="Appendix B: Troubleshooting" link="Appendix\Troubleshooting.htm">
+		</section>
+	</item>
+	<item name="Ext2">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="Digital Forensics">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="FAT32">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="Ext3">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="ISO9660">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+		<section name="Glossary" link="Glossary.htm">
+		</section>
+	</item>
+	<item name="FAT">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="Sleuth Kit">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="FAT16">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="UFS">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="JPG">
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+	</item>
+	<item name="Keyword">
+		<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</section>
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+		<section name="Searching File Contents for Internet Information" link="Searching_File_Contents\Searching_Using_Builtin_Keywords.htm">
+		</section>
+		<item name="Keyword Lists">
+			<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+			</section>
+		</item>
+		<item name="Keyword Options">
+			<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+			</section>
+		</item>
+		<item name="Keyword Search">
+			<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+			</section>
+			<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+			</section>
+			<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+			</section>
+			<section name="Searching File Contents for Internet Information" link="Searching_File_Contents\Searching_Using_Builtin_Keywords.htm">
+			</section>
+		</item>
+		<item name="Keyword Search ingest">
+			<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+			</section>
+		</item>
+		<item name="Managing Keyword Lists">
+			<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Thumbnail View">
+		<section name="Using the Result Viewer" link="Exploring_the_User_Interface\Using_the_Result_Viewer.htm">
+		</section>
+	</item>
+	<item name="Analyzed Data">
+		<section name="Adding a Disk Image" link="Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm">
+		</section>
+		<item name="Exploring">
+			<section name="Adding a Disk Image" link="Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Exporting" seealso="Extract">
+	</item>
+	<item name="E01">
+		<section name="Welcome" link="Welcome.htm">
+		</section>
+	</item>
+	<item name="Frequently Asked Questions">
+		<section name="Appendix B: FAQ" link="Appendix\FAQ.htm">
+		</section>
+	</item>
+	<item name="Thunderbird Parser">
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+	</item>
+	<item name="Internet Activity">
+		<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+		</section>
+	</item>
+	<item name="Disk Analysis" seealso="Ingest">
+	</item>
+	<item name="UnallocatedDiskSpace">
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+		<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+		</section>
+		<item name="Analyzing">
+			<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+			</section>
+		</item>
+		<item name="Extracting">
+			<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+			</section>
+		</item>
+		<item name="Contents">
+			<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+			</section>
+		</item>
+		<item name="Unalloc">
+			<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Extract">
+		<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+		</section>
+		<section name="Extracting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+		</section>
+		<section name="About Extracting Information" link="Collecting_Files_for_Later_Analysis\About_Extracting_Information.htm">
+		</section>
+	</item>
+	<item name="Custom Report">
+		<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+		</section>
+		<item name="Creating">
+			<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Toolbar">
+		<section name="Appendix A: Toolbar Reference" link="Appendix\Toolbar_Reference.htm">
+		</section>
+	</item>
+	<item name="Basic Report">
+		<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+		</section>
+	</item>
+	<item name="Graphical Timeline">
+		<section name="Creating a Graphical Timeline" link="Creating_a_Timeline\Creating_a_Graphical_Timeline.htm">
+		</section>
+		<item name="Creating">
+			<section name="Creating a Graphical Timeline" link="Creating_a_Timeline\Creating_a_Graphical_Timeline.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Disk Image" seealso="Image">
+		<item name="Adding">
+			<section name="Adding a Disk Image" link="Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Modules" seealso="Ingest">
+	</item>
+	<item name="Configure">
+		<section name="Adding a Disk Image" link="Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm">
+		</section>
+		<item name="HTML">
+			<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+			</section>
+			<section name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+			</section>
+		</item>
+		<item name="Ingest Modules">
+			<section name="Configuring Ingest" link="Getting_Started_Using_the_Wizard\Configuring_Ingest.htm">
+			</section>
+		</item>
+	</item>
+	<item name="UTF8">
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+	</item>
+	<item name="File Contents">
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+		<item name="Viewing">
+			<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Microsoft Word">
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+	</item>
+	<item name="String View">
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+	</item>
+	<item name="GIF">
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+	</item>
+	<item name="Ingest">
+		<section name="About Timelines" link="Creating_a_Timeline\About_Timelines.htm">
+		</section>
+		<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</section>
+		<section name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+		</section>
+		<section name="Stopping and Rerunning Ingest" link="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm">
+		</section>
+		<section name="Configuring Ingest" link="Getting_Started_Using_the_Wizard\Configuring_Ingest.htm">
+		</section>
+		<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+		</section>
+		<section name="About the Wizard" link="Getting_Started_Using_the_Wizard\About_the_Wizard.htm">
+		</section>
+		<section name="Adding a Disk Image" link="Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm">
+		</section>
+		<section name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</section>
+		<section name="Exporting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+		</section>
+		<section name="Searching File Contents for Internet Information" link="Searching_File_Contents\Searching_Using_Builtin_Keywords.htm">
+		</section>
+		<item name="Ingest Modules">
+			<section name="Stopping and Rerunning Ingest" link="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm">
+			</section>
+			<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+			</section>
+			<item name="Recent Activity">
+			</item>
+			<item name="Exif Parser">
+				<section name="About Configuring Disk Analysis" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+				</section>
+			</item>
+			<item name="Thunderbird Parser">
+			</item>
+		</item>
+		<item name="Restarting">
+			<section name="Stopping and Restarting Ingest" link="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm">
+			</section>
+		</item>
+		<item name="Cancelling">
+			<section name="Cancelling and Restarting Ingest" link="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Tag">
+		<item name="Tag File">
+			<section name="Saving File Locations" link="Searching_File_Contents\Saving_File_Locations.htm">
+			</section>
+		</item>
+		<item name="Tag Name">
+			<section name="Saving File Locations" link="Searching_File_Contents\Saving_File_Locations.htm">
+			</section>
+		</item>
+		<item name="Tagged Results">
+			<section name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+			</section>
+		</item>
+	</item>
+	<item name="Directory">
+		<item name="Directory Contents">
+			<section name="Exporting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+			</section>
+		</item>
+		<item name="Directory Listing">
+			<section name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+			</section>
+		</item>
+		<item name="Directory Tree">
+			<section name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+			</section>
+		</item>
+	</item>
+</index>

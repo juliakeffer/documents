@@ -1,0 +1,384 @@
+﻿/*Created with Adobe RoboHelp 9.*/
+A.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+A.dropspot {
+	cursor: hand;
+	color: #007fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+A.glossterm {
+	cursor: hand;
+	font-style: italic;
+	color: #70b7ff;
+	font-weight: bold;
+	text-decoration: none;
+}
+SPAN.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+d; margin-left 0pt; margin-right 0pt; page-break-after avoid; font-family Verdana; font-size 14pt; margin-bottom 12pt; x-next-class ; x-next-type P; margin-top 12pt; } OL,
+UL {
+	font-family: Verdana;
+	margin-left: 0px;
+	font-size: 10pt;
+}
+BODY {
+	x-next-page: page-with-header;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+span.rls-1-Style1 {
+	font-family: Verdana;
+}
+span.Emphasis {
+	font-weight: bold;
+}
+rh-list.NumberedList {
+	x-lvl-2-type: lower-alpha;
+	x-lvl-2-format: "<x>&c";
+	x-lvl-3-type: lower-roman;
+	x-lvl-3-format: "<x>&c";
+	x-lvl-3-margin: 40px;
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-format: "<x>.";
+	x-lvl-1-pfx-class: rls-1-NumberedList;
+	x-lvl-1-type: decimal;
+	x-lvl-1-margin: 40px;
+	x-lvl-1-text-indent: -20px;
+	x-lvl-1-p-tag: p;
+	x-level-count: 9;
+	x-lvl-2-margin: 60px;
+	x-lvl-2-text-indent: -20px;
+}
+span.rls-1-NumberedList {
+	font-family: Verdana;
+	font-size: 10pt;
+}
+H3 {
+	font-weight: bold;
+	margin-right: 0pt;
+	page-break-after: avoid;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	font-size: 12pt;
+	x-next-class: ;
+	x-next-type: p;
+	margin-left: .25in;
+}
+rh-list.BulletList {
+	x-lvl-3-type: lower-roman;
+	x-lvl-3-format: "<x>&c";
+	x-lvl-3-margin: 40px;
+	x-lvl-4-type: decimal;
+	x-lvl-4-format: "&o<x>&c";
+	x-lvl-4-margin: 60px;
+	x-lvl-5-format: "&o<x>&c";
+	x-lvl-5-margin: 80px;
+	x-lvl-6-type: lower-roman;
+	x-lvl-6-format: "&o<x>&c";
+	x-lvl-6-margin: 100px;
+	x-lvl-8-type: lower-alpha;
+	x-lvl-8-margin: 140px;
+	x-lvl-7-format: "<x>.";
+	x-lvl-7-margin: 120px;
+	x-lvl-9-type: lower-roman;
+	x-lvl-9-margin: 160px;
+	x-lvl-1-type: disc;
+	x-lvl-1-format: "<x>";
+	x-lvl-2-type: diamond;
+	x-lvl-2-format: "<x>";
+	x-lvl-1-margin: 40px;
+	x-lvl-1-text-indent: -20px;
+	x-lvl-1-p-tag: p;
+	x-level-count: 9;
+	x-lvl-2-margin: 60px;
+	x-lvl-2-text-indent: -20px;
+	x-lvl-2-p-tag: p;
+}
+A:visited {
+	color: #800080;
+	text-decoration: underline;
+}
+span.Code {
+	font-family: "Courier New";
+}
+H4 {
+	font-weight: bold;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	page-break-after: avoid;
+	x-next-class: ;
+	x-next-type: P;
+	font-size: 11pt;
+}
+span.hyperlink {
+	color: #0000ff;
+	text-decoration: underline;
+}
+rh-seq.Restart {
+	x-count: 1;
+	x-1: ;
+}
+table.TableNoBorders {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	margin-left: 18pt;
+	padding-left: .25in;
+	padding-right: .25in;
+}
+span.StrongEmphasis {
+	font-weight: bold;
+	font-style: italic;
+}
+table.BlueHeaderRow {
+	padding: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F81BD;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+	x-border-spacing: px;
+}
+table.BlueHeaderRow td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: .1in;
+	padding-bottom: .1in;
+}
+table.BlueHeaderRow tr.t1Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+table.BlueHeaderRow tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F81BD;
+	font-family: Verdana;
+	font-size: 10pt;
+}
+table.BlueHeaderRow tr.t1st td {
+	font-size: 12pt;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Arial;
+	background-color: #6672e5;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #0000ff;
+}
+p {
+	mso-add-space: auto;
+	margin-top: 14pt;
+	text-indent: -0px;
+	margin-bottom: 14pt;
+	margin-left: .25in;
+}
+table.MultiBandGreen {
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F6228;
+	border-top-style: Solid;
+	border-top-width: 1px;
+	border-top-color: #4F6228;
+	x-row-pat-count: 3;
+	x-row-pat-3: 1;
+	x-row-pat-3-name: t3Row;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+}
+table.MultiBandGreen td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.MultiBandGreen tr.t1Row td {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F6228;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F6228;
+	background-color: #EAF1DD;
+}
+table.MultiBandGreen tr.t2Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F6228;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F6228;
+	background-color: #D6E3BC;
+}
+table.MultiBandGreen tr.t3Row td {
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F6228;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #4F6228;
+	background-color: #C2D69B;
+}
+table.MultiBandGreen tr.t1st td {
+	background-color: #4F6228;
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: 4F6228;
+	color: #ffffff;
+	font-weight: bold;
+}
+table.AlternateBlueWithHeader {
+	x-border-spacing: 0px;
+	x-row-pat-1: 1;
+	x-row-pat-1-name: t1Row;
+	x-row-pat-count: 2;
+	x-row-pat-2: 1;
+	x-row-pat-2-name: t2Row;
+	border-left-style: Solid;
+	border-left-width: 1px;
+	border-left-color: #4F81BD;
+	border-right-style: Solid;
+	border-right-width: 1px;
+	border-right-color: #4F81BD;
+	x-1st-row: 1;
+	x-1st-row-name: t1st;
+}
+table.AlternateBlueWithHeader td {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+table.AlternateBlueWithHeader tr.t1Row td {
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: 4f81bd;
+}
+table.AlternateBlueWithHeader tr.t2Row td {
+	background-color: #D3DFEE;
+	border-bottom-style: Solid;
+	border-bottom-width: 1px;
+	border-bottom-color: 4f81bd;
+}
+table.AlternateBlueWithHeader tr.t1st td {
+	background-color: #4F81BD;
+}
+p.Snippet {
+	color: #0000ff;
+	font-weight: bold;
+	font-style: italic;
+}
+H1 {
+	font-weight: bold;
+	font-size: 22pt;
+	margin-bottom: 14pt;
+	margin-right: 0pt;
+	page-break-after: avoid;
+	margin-top: 0pt;
+	x-next-class: ;
+	x-next-type: p;
+	margin-left: .25in;
+}
+H6 {
+	font-weight: bold;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	page-break-after: avoid;
+	font-size: 6pt;
+	margin-bottom: 0pt;
+	x-next-class: ;
+	x-next-type: P;
+	margin-top: -4.5pt;
+}
+table.TableNoBorders tr.t1Row td {
+	font-family: Verdana;
+	font-size: 10pt;
+}
+table.TableNoBorders tr.t2Row td {
+	font-family: Verdana;
+	font-size: 10pt;
+}
+A.breadcrumbs {
+	color: #ffffff;
+	background-color: #e2e0e0;
+}
+H2 {
+	font-weight: bold;
+	font-size: 16pt;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	margin-right: 0pt;
+	page-break-after: avoid;
+	x-next-class: ;
+	x-next-type: p;
+	margin-left: .25in;
+}
+H5 {
+	font-weight: bold;
+	font-size: 9pt;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	margin-right: 0pt;
+	page-break-after: avoid;
+	x-next-class: ;
+	x-next-type: p;
+	margin-left: .25in;
+}

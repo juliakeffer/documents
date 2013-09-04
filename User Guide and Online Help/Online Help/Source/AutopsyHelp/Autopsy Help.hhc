@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc version="1.0">
+	<properties imagewidth="16" windowstyles="8388610" exwindowstyles="256">
+	</properties>
+	<item name="Welcome" link="Welcome.htm">
+	</item>
+	<item name="Digital Forensics Overview" link="DigitalForensicsOverview.htm">
+	</item>
+	<item name="Getting Started Using the Wizard">
+		<item name="About the Wizard" link="Getting_Started_Using_the_Wizard\About_the_Wizard.htm">
+		</item>
+		<item name="Creating a Case" link="Getting_Started_Using_the_Wizard\Creating_a_Case.htm">
+		</item>
+		<item name="Adding a Disk Image" link="Getting_Started_Using_the_Wizard\Adding_a_Disk_Image.htm">
+		</item>
+		<item name="Analyzing the Disk Image">
+			<item name="About Analyzing the Disk Image" link="Getting_Started_Using_the_Wizard\About_Analyzing_the_Disk_Image.htm">
+			</item>
+			<item name="Configuring Ingest" link="Getting_Started_Using_the_Wizard\Configuring_Ingest.htm">
+			</item>
+			<item name="Cancelling and Restarting Ingest" link="Getting_Started_Using_the_Wizard\Cancelling_and_Restarting_Ingest.htm">
+			</item>
+			<item name="Adding a Hash Database" link="Getting_Started_Using_the_Wizard\Adding_a_Hash_Database.htm">
+			</item>
+		</item>
+	</item>
+	<item name="Exploring the User Interface">
+		<item name="About Exploring the User Interface" link="Exploring_the_User_Interface\About_Exploring_the_User_Interface.htm">
+		</item>
+		<item name="Using the Data Explorer" link="Exploring_the_User_Interface\Using_the_Data_Explorer.htm">
+		</item>
+		<item name="Using the Result Viewer" link="Exploring_the_User_Interface\Using_the_Result_Viewer.htm">
+		</item>
+		<item name="Viewing File Contents" link="Exploring_the_User_Interface\Viewing_File_Contents.htm">
+		</item>
+	</item>
+	<item name="Searching File Contents">
+		<item name="About Searching File Contents" link="Searching_File_Contents\About_File_Content_Search.htm">
+		</item>
+		<item name="Searching Using Built-in Keywords" link="Searching_File_Contents\Searching_Using_Builtin_Keywords.htm">
+		</item>
+		<item name="Creating and Managing Keyword Lists" link="Searching_File_Contents\Creating_and_Managing_Keyword_Lists.htm">
+		</item>
+		<item name="Saving File Locations" link="Searching_File_Contents\Saving_File_Locations.htm">
+		</item>
+	</item>
+	<item name="Generating Reports">
+		<item name="About Reports" link="Generating_Reports\About_Reports.htm">
+		</item>
+		<item name="Creating a Basic Report" link="Generating_Reports\Creating_a_Basic_Report.htm">
+		</item>
+		<item name="Creating a Custom Report" link="Generating_Reports\Creating_a_Custom_Report.htm">
+		</item>
+	</item>
+	<item name="Creating a Timeline">
+		<item name="About Timelines" link="Creating_a_Timeline\About_Timelines.htm">
+		</item>
+		<item name="Creating a Graphical Timeline" link="Creating_a_Timeline\Creating_a_Graphical_Timeline.htm">
+		</item>
+		<item name="Creating a Timeline Report" link="Creating_a_Timeline\Creating_a_Timeline_Reportl.htm">
+		</item>
+	</item>
+	<item name="Collecting Files for Later Analysis">
+		<item name="About Extracting Information" link="Collecting_Files_for_Later_Analysis\About_Extracting_Information.htm">
+		</item>
+		<item name="Extracting File and Directory Contents" link="Collecting_Files_for_Later_Analysis\Extracting_File_and_Directory_Contents.htm">
+		</item>
+		<item name="Extracting Unallocated Disk Space" link="Collecting_Files_for_Later_Analysis\Extracting_Unallocated_Disk_Space.htm">
+		</item>
+	</item>
+	<item name="Appendix">
+		<item name="Appendix A: Toolbar Reference" link="Appendix\Toolbar_Reference.htm">
+		</item>
+		<item name="Appendix B:Troubleshooting" link="Appendix\Troubleshooting.htm">
+		</item>
+		<item name="Appendix C: FAQ" link="Appendix\FAQ.htm">
+		</item>
+	</item>
+	<item name="Glossary" link="Glossary.htm">
+	</item>
+</toc>
