@@ -72,6 +72,8 @@
 		<word>BodyFile.txt</word>
 		<word>USB</word>
 		<word>XP</word>
+		<word>Lucene</word>
+		<word>lossless</word>
 	</ignoredwords>
 	<TODOList>
 		<TODOItem>First Draft</TODOItem>

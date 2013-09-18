@@ -5,6 +5,10 @@
 		<glossdef>An open-source search server based on the Lucene Java search library</glossdef>
 	</glossentry>
 	<glossentry>
+		<glossterm>ASCII</glossterm>
+		<glossdef>American Standard Code for Information Interchange</glossdef>
+	</glossentry>
+	<glossentry>
 		<glossterm>CSV</glossterm>
 		<glossdef>Comma separated file, a text file with a series of fields separated by a delimiter</glossdef>
 	</glossentry>
